@@ -1,0 +1,1643 @@
+[
+ {
+  "id": "w1-li",
+  "week": 1,
+  "date": "2026-10-12",
+  "time": "09:00",
+  "kind": "carousel",
+  "format": "Carousel · 7 slides",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "5 Places Your School's Fee Collection Is Leaking Money",
+  "caption": "Most schools don't lose fee income in one big way. They lose it in five small ones.\n\nNo automatic reminders. Payments recorded twice. No live view of who owes what. Receipts written by hand. A finance report rebuilt from scratch every term.\n\nSwipe through to see where the leaks are, and how one finance dashboard closes them.\n\nscholarstika.org",
+  "hashtags": "#SchoolFinance #Bursar #SchoolManagement #SchoolManagementSoftware #EdTech #SchoolLeadership #FeeCollection #K12Admin #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Flat corporate illustration, navy blue background, a cracked piggy bank shaped like a school building with coins slipping through the cracks, single green accent colour, minimalist vector style, large empty space at top for a bold headline, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of a silent notification bell with a small red slash, navy and white palette, centred on plain white background, generous white space, vector style, no text."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of two identical overlapping receipts with a mismatched total highlighted in red, navy and white palette, plain white background, vector style, no text."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of an eye with a closed eyelid above a blurred bar chart, navy and white palette, plain white background, vector style, no text."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat illustration of a hand writing on a paper receipt pad with a ballpoint pen, navy and white palette, plain white background, vector style, no text."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Minimal flat illustration of a tall unstable stack of paper reports beside a calculator, navy and white palette, plain white background, vector style, no text."
+   },
+   {
+    "label": "Slide 7",
+    "text": "Clean modern laptop showing a simple finance dashboard with a bar chart and a list of green check marks, navy background with soft green glow, flat corporate vector style, space at bottom for logo and URL, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w1-fb",
+  "week": 1,
+  "date": "2026-10-14",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "Still chasing school fees with phone calls and paper notes?",
+  "caption": "Still chasing school fees with phone calls and paper notes?\n\nScholarstika sends payment reminders to parents automatically and shows your bursar every outstanding balance on one screen. Fewer calls, fewer sticky notes, and a clear picture of where the term's fees stand.\n\nBook a free demo at scholarstika.org",
+  "hashtags": "#SchoolFees #SchoolAdmin #SchoolFinance #ParentsAndSchools #EdTech #SchoolManagement #PaymentReminders #SmartSchools #DigitalSchool #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Split-screen photorealistic image. Left half: a cluttered wooden office desk in a school bursar's office, open handwritten fee ledger, yellow sticky notes everywhere, an old desk phone ringing, muted grey desaturated tones, slightly stressful mood. Right half: the same desk now tidy, a hand holding a modern smartphone showing a clean blue-and-white app notification card about payment reminders, bright natural light, calm optimistic mood. Sharp vertical divide, 35mm photography style, high detail, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w1-ig",
+  "week": 1,
+  "date": "2026-10-15",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 15 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "POV: It's mid-term and the principal asks who hasn't paid fees",
+  "caption": "POV: It's mid-term and the principal asks who hasn't paid fees 😬\n\nOne tap shows every outstanding balance. Tag a bursar who needs this.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#SchoolLife #BursarLife #SchoolFees #EdTech #PrincipalLife #SchoolHumor #WorkHumor #ReelsInstagram #SchoolAdmin #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (15 sec, 9:16)",
+    "text": "Vertical comedic short film, bright school office setting. Shot 1 (0–3s): a principal in a smart shirt leans through an office doorway and asks a question, medium shot. Shot 2 (3–5s): a bursar at a desk freezes with wide eyes, fast dramatic zoom-in on her face, comedic timing. Shot 3 (5–9s): fast-motion montage of her flipping ledger pages and punching a calculator, papers flying. Shot 4 (9–13s): calm cut, she taps once on a laptop showing a clean blue finance dashboard, a list appears instantly, she relaxes. Shot 5 (13–15s): she turns the laptop toward the camera with a confident smile. Warm natural lighting, crisp colours, playful meme-style pacing, space at top and bottom for captions."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon-style image of a shocked school bursar at a desk surrounded by flying paper invoices, exaggerated wide eyes, bright saturated colours, bold empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w1-blog",
+  "week": 1,
+  "date": "2026-10-16",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~900 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Track Outstanding School Fees Without Spreadsheets",
+  "caption": "A practical guide for bursars on seeing every outstanding fee in one place, sending reminders automatically and closing the term with a clean finance report.",
+  "hashtags": "#SchoolFinance #SchoolFees #Bursar #SchoolManagementSoftware #FeeManagement #SchoolAdmin #EdTech #SchoolLeadership #DigitalSchool #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Clean editorial illustration: on the left a messy paper fee ledger with coffee stains, on the right a sleek laptop showing a tidy list of student balances with green check marks, bright blue background, soft studio lighting, modern flat-meets-3D style, empty space on one side for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "school fee management software",
+   "slug": "/blog/track-outstanding-school-fees",
+   "meta": "See every outstanding school fee in one place, send automatic reminders and build your term report in minutes. A practical guide for school bursars.",
+   "outline": [
+    "Why fee tracking breaks down at mid-term",
+    "What a live balances view should show",
+    "Automatic payment reminders: timing and tone",
+    "Recording payments once, not twice",
+    "Building the end-of-term finance report",
+    "How Scholarstika handles each step",
+    "FAQ: partial payments, siblings, scholarships"
+   ]
+  }
+ },
+ {
+  "id": "w2-li",
+  "week": 2,
+  "date": "2026-10-19",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "How Long Does It Take Your School to Find One Student's Full Record?",
+  "caption": "How long does it take your school to find one student's full record?\n\nEnrollment form, attendance history, every term's results, transfer documents. In many schools that means three filing cabinets and a free afternoon.\n\nWith a single student information system, it's one search. That matters when a parent asks, an inspector visits, or a student transfers mid-year.\n\nscholarstika.org",
+  "hashtags": "#StudentInformationSystem #SchoolLeadership #SchoolManagement #StudentRecords #EdTech #SchoolAdministration #DataManagement #K12Admin #DigitalTransformation #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Clean professional vector illustration split into two halves. Left: a tall grey metal filing cabinet with drawers overflowing with paper folders, a large analog stopwatch beside it showing a long elapsed time, cool grey tones. Right: a modern laptop with a single search bar and one neat student profile card appearing, a small stopwatch showing almost no time, cool blue tones with a soft glow. Serious, trustworthy corporate style, flat shading, clear empty space along the top for a headline, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w2-fb",
+  "week": 2,
+  "date": "2026-10-21",
+  "time": "12:00",
+  "kind": "carousel",
+  "format": "Carousel · 6 slides",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "A Student's Whole Journey, in One Place",
+  "caption": "From the first day of enrollment to graduation day, every step of a student's journey belongs in one record. 📚\n\nEnrollment. Attendance. Report cards. Transfers and graduation.\n\nSwipe through to see how Scholarstika keeps it all together, so nobody has to dig through a filing cabinet again.",
+  "hashtags": "#StudentData #SchoolAdmin #StudentRecords #EdTech #SchoolManagement #ParentsAndSchools #SchoolLife #DigitalSchool #StudentSuccess #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Warm flat illustration of a young African student with a backpack walking along a winding path that leads to a bright modern school building and, in the distance, a graduation stage, orange and soft blue palette, a small glowing digital folder icon floating beside the student, friendly community mood, space at top for a title, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Same student character, age 6, holding a parent's hand at a school front desk while an administrator types on a laptop, a digital profile card appearing above the laptop, warm orange and soft blue flat illustration, no text."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Same student character, age 10, raising a hand in a bright classroom, a floating calendar grid with green ticks above, warm flat illustration, no text."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Same student character, age 14, smiling while holding a neat printed report card, floating gold stars and a small bar chart, warm flat illustration, no text."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Same student character, age 17, in a graduation gown throwing a cap in the air, a digital folder icon glowing beside them, warm flat illustration, celebratory mood, no text."
+   },
+   {
+    "label": "Slide 6",
+    "text": "An old dusty filing cabinet fading away on the left and a clean glowing laptop on the right, warm orange and soft blue flat illustration, space for a call-to-action button, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w2-ig",
+  "week": 2,
+  "date": "2026-10-22",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 12 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "When a parent asks for their child's attendance record from two terms ago",
+  "caption": "When a parent asks for their child's attendance record from two terms ago… 🫠\n\nPaper files vs. one search in Scholarstika. Which office are you?\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#SchoolLife #AdminLife #SchoolAdmin #EdTech #ParentsOfInstagram #SchoolHumor #OfficeHumor #ReelsInstagram #StudentRecords #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (12 sec, 9:16)",
+    "text": "Vertical comedic short, school reception office. Shot 1 (0–2s): a polite parent leans on the front desk and asks a question, medium shot. Shot 2 (2–4s): a school administrator's eyes widen, slow dramatic push-in. Shot 3 (4–7s): the administrator dives into a cramped storeroom, cardboard boxes tumbling and dust clouds bursting in fast motion. Shot 4 (7–10s): a second administrator calmly types on a laptop, a student record appears instantly, a printer slides out one page, she hands it to the smiling parent. Shot 5 (10–12s): the first administrator stumbles out covered in dust holding the wrong folder. Bright natural light, slapstick timing, clean colours, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon image of a school administrator buried under falling cardboard file boxes in a dusty storeroom, comedic expression, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w2-blog",
+  "week": 2,
+  "date": "2026-10-23",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,200 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "Student Information System Explained: What Every School Should Track",
+  "caption": "A plain-language explainer on what a student information system is and the five records every school should keep in it, from enrollment to graduation.",
+  "hashtags": "#StudentInformationSystem #SchoolManagementSoftware #EdTech #SchoolAdmin #StudentRecords #SchoolLeadership #EducationTechnology #K12 #DataManagement #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "A large student ID card in the centre with four bright icons orbiting it (calendar, report card, folder, graduation cap), vivid blue background, strong glow and depth, clean modern illustration, large empty space on the right for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "student information system",
+   "slug": "/blog/student-information-system-explained",
+   "meta": "What is a student information system? Learn the five records every school should track, from enrollment to graduation, and how to keep them in one place.",
+   "outline": [
+    "What a student information system is (and isn't)",
+    "Enrollment records",
+    "Attendance history",
+    "Academic results and report cards",
+    "Transfers and graduation documents",
+    "Who should have access, and why",
+    "How Scholarstika keeps it in one record",
+    "FAQ: SIS vs. school management software"
+   ]
+  }
+ },
+ {
+  "id": "w3-li",
+  "week": 3,
+  "date": "2026-10-26",
+  "time": "09:00",
+  "kind": "carousel",
+  "format": "Carousel · 7 slides",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "The 7am Sick Call: A 5-Step Substitution Playbook for School Leaders",
+  "caption": "7:02am. A teacher calls in sick. First period starts at 7:45.\n\nHere's the five-step playbook that gets cover sorted before the bell:\n1. Log the absence\n2. Check who has free periods\n3. Assign cover\n4. Notify the substitute and the class\n5. Record it against leave and appraisal\n\nSwipe for the full playbook. With Scholarstika, all five steps happen in one system.",
+  "hashtags": "#SchoolLeadership #HRforSchools #StaffManagement #EdTech #SchoolManagement #Principals #TeacherShortage #SchoolOperations #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Minimalist flat illustration of a smartphone vibrating on a bedside table at dawn, screen glowing with an incoming call, a small wall clock reading 7:02, navy and soft yellow palette, calm but urgent mood, large empty space for a headline, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of a staff profile card with an absent badge being added, small clock reading 7:03 in the corner, navy and soft yellow, white background, no text."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of a weekly timetable grid with three free slots glowing yellow, small clock reading 7:05, navy and soft yellow, white background, no text."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of a hand dragging a teacher avatar into an empty timetable slot, small clock reading 7:06, navy and soft yellow, white background, no text."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat icon of a paper plane notification flying to two small avatars, small clock reading 7:08, navy and soft yellow, white background, no text."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Minimal flat icon of a leave balance gauge next to a clipboard with a checkmark, small clock reading 7:10, navy and soft yellow, white background, no text."
+   },
+   {
+    "label": "Slide 7",
+    "text": "Calm school administrator sipping coffee in front of a laptop showing a completed staff roster, sunrise through the window, navy and soft yellow flat illustration, space at bottom for logo and URL, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w3-fb",
+  "week": 3,
+  "date": "2026-10-28",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "To the admin teams who keep the timetable running when plans change: thank you.",
+  "caption": "To the admin teams who keep the timetable running when plans change: thank you. 💛\n\nThe last-minute cover, the rearranged rooms, the calls before sunrise. Schools run because of you.\n\nTag someone in your school office who deserves a shout-out today.",
+  "hashtags": "#StaffAppreciation #SchoolAdmin #SchoolCommunity #ThankYouTeachers #SchoolStaff #EducationHeroes #SchoolLife #TeamWork #EdTech #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1:1 or 4:5)",
+    "text": "Warm community-style flat illustration of a small diverse African school admin team in a sunny school office: one woman holding a printed timetable and smiling, one man on a desk phone giving a thumbs up, one young woman at a laptop laughing, potted plants and a noticeboard behind them, soft natural window light, warm orange, cream and soft blue palette, a ribbon banner shape across the top left empty for text, friendly appreciative mood, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w3-ig",
+  "week": 3,
+  "date": "2026-10-29",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 10 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Leave requests in the staff group chat vs. leave requests in one system",
+  "caption": "Leave requests in the staff group chat vs. leave requests in one system 📱➡️✅\n\nWho asked for Friday off again? With Scholarstika you'll always know.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#SchoolLife #PrincipalLife #StaffManagement #EdTech #GroupChat #WorkHumor #TeacherLife #ReelsInstagram #SchoolAdmin #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (10 sec, 9:16)",
+    "text": "Vertical comedic short, principal's office. Shot 1 (0–3s): close-up of a smartphone on a desk buzzing nonstop, dozens of generic unbranded chat bubbles flooding the screen. Shot 2 (3–5s): the principal scrolls frantically, squinting in confusion, quick zoom on a puzzled face. Shot 3 (5–8s): smooth cut to the same principal holding a phone showing one clean blue leave request card, he taps Approve and a green check animates. Shot 4 (8–10s): he looks at the camera and gives a relaxed thumbs up. Bright lighting, punchy edits, no real app logos, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of a school principal holding a phone that is exploding with chat bubbles, exaggerated overwhelmed face, bright saturated colours, empty banner space at top, no logos, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w3-blog",
+  "week": 3,
+  "date": "2026-10-30",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,000 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Manage Teacher Absences and Substitute Cover Without the 7am Scramble",
+  "caption": "A step-by-step guide for principals and admin teams on handling leave requests and substitute cover in one workflow, from the first call to the appraisal record.",
+  "hashtags": "#StaffManagement #HRforSchools #SchoolLeadership #SchoolManagementSoftware #TeacherAbsence #SchoolAdmin #EdTech #Principals #SchoolOperations #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "A giant stopwatch on the left and a staff ID badge with a bold green check mark on the right, a faint timetable grid in the background, bright yellow and navy palette, clean modern illustration with soft depth, empty space at top for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "staff management software for schools",
+   "slug": "/blog/teacher-absence-substitute-cover",
+   "meta": "Handle teacher absences, leave requests and substitute cover in one workflow. A step-by-step guide for school leaders and admin teams.",
+   "outline": [
+    "What a 7am sick call really costs a school",
+    "Step 1: log the absence",
+    "Step 2: find teachers with free periods",
+    "Step 3: assign and notify cover",
+    "Step 4: keep leave balances accurate",
+    "Step 5: link it to appraisals",
+    "How Scholarstika runs all five steps",
+    "FAQ: planned leave, long-term cover, fairness"
+   ]
+  }
+ },
+ {
+  "id": "nm-nov",
+  "week": 3,
+  "date": "2026-11-01",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "flyer",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "Happy New Month! Welcome, November.",
+  "caption": "Happy New Month! 🍂\n\nWelcome, November. To every principal, teacher, bursar and admin team keeping schools running: may this month bring smooth timetables, settled fees and calm exam preparation.\n\nFrom all of us at Scholarstika.",
+  "hashtags": "#HappyNewMonth #November #NewMonth #Teachers #SchoolLeaders #SchoolCommunity #Education #SchoolLife #NewMonthBlessings #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Elegant celebratory flyer background for a school software brand: deep navy backdrop with soft warm-yellow and burnt-orange autumn leaves drifting from the top corners, a subtle open notebook and pencil illustration at the bottom, gentle confetti dots, large clear central space for the words Happy New Month and November, small empty area at the bottom right for a logo, modern flat illustration style, festive but professional, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w4-li",
+  "week": 4,
+  "date": "2026-11-02",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "End-of-Term Exams Are Weeks Away. Is Your Results Process Ready?",
+  "caption": "End-of-term exams are weeks away. Is your results process ready?\n\nA five-point check for school leaders:\n✔ Exam timetable published\n✔ Mark entry open for subject teachers\n✔ Grading scale set\n✔ Result slip template approved\n✔ Release date fixed\n\nIf any of these still live in a spreadsheet, now is the time to fix it, not the week results are due.\n\nscholarstika.org",
+  "hashtags": "#ExamSeason #SchoolLeadership #SchoolManagement #ExamResults #EdTech #Principals #AssessmentForLearning #SchoolOperations #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Clean professional flat design of a large white checklist card floating on a soft blue gradient background, five rows each with a bold green check mark and a small icon (calendar, pencil, grading scale ruler, document template, calendar with a flag), subtle drop shadow, a small desk calendar and a stack of exam papers blurred in the background, serious trustworthy corporate tone, empty space at top for a headline and bottom right for a logo, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w4-fb",
+  "week": 4,
+  "date": "2026-11-04",
+  "time": "12:00",
+  "kind": "carousel",
+  "format": "Carousel · 6 slides",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "From Mark Sheet to Result Slip in 4 Steps",
+  "caption": "Exam season used to mean late nights and mixed-up mark sheets. 🎓\n\nWith Scholarstika it's four steps: set the timetable, enter marks, let grades compute automatically, and print the result slips.\n\nSwipe through, then give your teachers their evenings back.",
+  "hashtags": "#ExamSeason #Teachers #SchoolAdmin #ResultSlips #EdTech #SchoolManagement #TeacherLife #Grading #DigitalSchool #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Warm flat illustration of a messy pile of handwritten mark sheets on the left transforming through a swirl of sparkles into one neat printed result slip on the right, warm orange and cream palette, space at top for a title, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Friendly flat illustration of a wall calendar with exam dates highlighted, a large numbered circle 1 in the corner, warm orange and cream palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Friendly flat illustration of a smiling teacher typing marks into a laptop, a large numbered circle 2 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Friendly flat illustration of a calculator with sparkles and a small graph rising automatically, a large numbered circle 3 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Friendly flat illustration of a printer sliding out neat result slips with a gold star, a large numbered circle 4 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Cosy flat illustration of a relaxed teacher reading a book with a cup of tea at home in the evening, warm lamp light, warm orange palette, space for a call-to-action button, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w4-ig",
+  "week": 4,
+  "date": "2026-11-05",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 15 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Teachers the night before results are due",
+  "caption": "Teachers the night before results are due 💀\n\nThere's a faster way. Enter the marks, and the grades and result slips sort themselves out.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#TeacherLife #ExamSeason #TeachersOfInstagram #EdTech #Grading #SchoolHumor #TeacherHumor #ReelsInstagram #SchoolLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (15 sec, 9:16)",
+    "text": "Vertical comedic short. Shot 1 (0–3s): night, dim desk lamp, a wall clock reading 11:48pm, an exhausted teacher surrounded by tall piles of exam scripts and a cold mug of tea. Shot 2 (3–6s): fast-motion montage of the teacher punching a calculator and papers sliding off the desk. Shot 3 (6–8s): freeze frame with a desaturated look, the teacher slowly turns to the camera. Shot 4 (8–12s): bright cut, same teacher at 6pm in daylight, typing on a laptop, grades fill a table instantly with a glowing effect. Shot 5 (12–15s): the teacher leans back with a steaming fresh cup of tea and a satisfied smile. Strong contrast between cold night tones and warm daylight, meme-style pacing, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 dark-humour image of a teacher slumped over a desk buried in exam papers at midnight, calculator in hand, single desk lamp glow, wall clock at 11:48, high contrast, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w4-blog",
+  "week": 4,
+  "date": "2026-11-06",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,200 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Run End-of-Term Exams Without the Spreadsheet Chaos",
+  "caption": "A walkthrough of the end-of-term results process, from setting the timetable to releasing result slips to parents, without a single spreadsheet formula.",
+  "hashtags": "#ExamSeason #SchoolManagementSoftware #ExamResults #SchoolAdmin #Teachers #ResultSlips #EducationTechnology #EdTech #Grading #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Left side a crumpled, chaotic spreadsheet printout with a large red X, right side a neat result slip displayed on a laptop with a large green check, split by a bold diagonal line, bright orange and blue background, dramatic lighting, clean editorial illustration, empty space at top for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "exam management software for schools",
+   "slug": "/blog/end-of-term-exams-without-spreadsheets",
+   "meta": "Run end-of-term exams from timetable to result slips without spreadsheets. A practical walkthrough for principals, exam officers and teachers.",
+   "outline": [
+    "Why spreadsheets break at exam time",
+    "Setting the exam timetable",
+    "Mark entry by subject teachers",
+    "Automatic grade computation",
+    "Checking and generating result slips",
+    "Releasing results to parents",
+    "How Scholarstika runs the whole process",
+    "FAQ: grading scales, re-sits, late marks"
+   ]
+  }
+ },
+ {
+  "id": "w5-li",
+  "week": 5,
+  "date": "2026-11-09",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "Four Tools, Four Logins, Four Versions of the Truth",
+  "caption": "Attendance in one app. Grades in a spreadsheet. Fees in a ledger. Staff leave in a group chat.\n\nFour tools means four logins and four versions of the truth. Someone in your office spends hours every week making them agree.\n\nAn all-in-one school management platform keeps student data, examinations, staffing and finance in one place, so the numbers match the first time.\n\nscholarstika.org",
+  "hashtags": "#SchoolManagementSoftware #SchoolLeadership #EdTech #SchoolAdministration #AllInOnePlatform #K12Admin #DigitalTransformation #SchoolOperations #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Clean corporate vector illustration: on the left, four separate floating islands each holding a different object (a spreadsheet, a paper ledger, a chat bubble, an attendance register) with broken bridges between them, grey tones; on the right, the same four objects connected to one glowing central platform shaped like a school building, navy and bright blue with a soft green accent, calm trustworthy mood, empty space at top for a headline, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w5-fb",
+  "week": 5,
+  "date": "2026-11-11",
+  "time": "12:00",
+  "kind": "carousel",
+  "format": "Carousel · 5 slides",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "One Platform. Four Things Off Your Plate.",
+  "caption": "One platform. Four things off your plate. 👇\n\n✅ Student Data: enrollment, attendance, academic history\n✅ Examinations: timetabling, grading, result slips\n✅ Staffing: leave, substitutions, appraisals\n✅ Finance: fees, payments, reports\n\nSwipe through to see what simplifying your school's process looks like.",
+  "hashtags": "#SchoolManagementSoftware #EdTech #AllInOnePlatform #SchoolAdmin #SchoolManagement #StudentData #SchoolFinance #ExamSeason #DigitalSchool #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Modern flat corporate title card on a soft blue-to-white gradient, four small icons arranged in a neat 2x2 grid (a student ID card, an exam paper with a check, a staff badge, a wallet with a coin), lots of empty space above for a headline, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat illustration of a student profile card with a small attendance calendar beside it, soft blue and orange palette, white background, no text."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat illustration of an exam sheet with a graduation cap resting on it, soft blue and orange palette, white background, no text."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat illustration of a staff ID badge next to a small calendar with one day circled, soft blue and orange palette, white background, no text."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat illustration of a wallet with a coin and a rising bar chart, soft blue and orange palette, white background, a rounded empty button shape at the bottom for a call to action, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w5-ig",
+  "week": 5,
+  "date": "2026-11-12",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 12 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Me logging into four different school systems before 8am",
+  "caption": "Me logging into four different school systems before 8am 😮‍💨\n\nOne login. One dashboard. Everything your school runs on.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#SchoolLife #AdminLife #EdTech #SchoolAdmin #WorkHumor #MondayMood #OfficeHumor #ReelsInstagram #SchoolManagement #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (12 sec, 9:16)",
+    "text": "Vertical comedic short, school office at sunrise. Shot 1 (0–3s): a school administrator sits down with coffee, a desktop screen fills with four separate login windows, quick zoom on her tired face. Shot 2 (3–7s): fast-motion montage of her typing passwords, sticky notes with reminders falling off the monitor, a 'wrong password' red shake animation on one window. Shot 3 (7–10s): clean cut, she clicks one button and a single bright blue dashboard opens with four tidy panels. Shot 4 (10–12s): she leans back and sips coffee, satisfied smile to camera. Warm morning light, crisp colours, meme pacing, generic unbranded screens, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of an administrator surrounded by four floating login windows and a cloud of sticky notes, exaggerated tired expression, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-kind",
+  "week": 5,
+  "date": "2026-11-13",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "World Kindness Day: Kindness is the lesson that lasts.",
+  "caption": "Happy World Kindness Day 💛\n\nThe kind word from a teacher, the patient answer at the front desk, the classmate who saves a seat. Kindness is the lesson students remember longest.\n\nWho showed you kindness at school? Tell us below.",
+  "hashtags": "#WorldKindnessDay #KindnessMatters #BeKind #KindnessInSchools #Teachers #Students #SchoolCommunity #Education #SchoolLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Warm heartfelt flat illustration: a teacher kneeling to help a young African student tie a shoelace in a sunny school corridor, two classmates sharing a book on a bench nearby, small floating hearts in soft yellow and coral, cream background, gentle and sincere mood, large empty space at top for a headline, small empty area bottom right for a logo, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w5-blog",
+  "week": 5,
+  "date": "2026-11-13",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,200 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "All-in-One School Management Software vs. Separate Tools: Which Is Right for Your School?",
+  "caption": "A balanced comparison for school leaders weighing one integrated platform against a set of separate tools, with the questions to ask before deciding.",
+  "hashtags": "#SchoolManagementSoftware #AllInOnePlatform #SchoolLeadership #EdTech #SchoolAdmin #SchoolAdministration #DigitalTransformation #EducationTechnology #K12 #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of a balance scale: on one side four small mismatched app tiles piled up awkwardly, on the other side one clean unified dashboard tile, scale tipping toward the unified side, navy and bright blue background, soft studio lighting, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "all-in-one school management system",
+   "slug": "/blog/all-in-one-vs-separate-school-tools",
+   "meta": "Should your school use one all-in-one management platform or separate tools? Compare cost, data accuracy, training and support before you decide.",
+   "outline": [
+    "How schools end up with four separate tools",
+    "The hidden cost of re-entering data",
+    "Where separate tools still make sense",
+    "What an all-in-one platform should cover",
+    "Training, support and switching effort",
+    "A decision checklist for school leaders",
+    "How Scholarstika brings the four pillars together",
+    "FAQ: integrations, migration, cost"
+   ]
+  }
+ },
+ {
+  "id": "w6-li",
+  "week": 6,
+  "date": "2026-11-16",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "Where Does Your School's Data Actually Live?",
+  "caption": "Where does your school's data actually live?\n\nFor many schools the honest answer is: a bursar's laptop, a USB drive in a drawer, three spreadsheets on someone's phone and a filing cabinet nobody has the key to.\n\nIf one of those goes missing, so do the records. A cloud-based platform keeps student, staff and finance data backed up, access-controlled and in one place.\n\nA question worth asking before the end of term.",
+  "hashtags": "#DataSecurity #ITinEducation #EdTech #SchoolManagement #CloudComputing #SchoolLeadership #DataProtection #K12Admin #CyberSecurity #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Serious, trust-inspiring vector illustration: a top-down view of a desk with scattered items (a laptop, a USB drive, a phone, a paper folder) connected by thin dotted lines that fade and break, contrasted with a single secure cloud icon with a shield above a modern school building on the right side, cool blue and grey palette, minimal and professional, empty space at top for a headline, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-stud",
+  "week": 6,
+  "date": "2026-11-17",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "International Students' Day: Today is yours.",
+  "caption": "Happy International Students' Day 🎓\n\nTo every student learning, growing and asking big questions: today is yours. Everything a school does, from the timetable to the report card, starts with you.\n\nTag a student who inspires you.",
+  "hashtags": "#InternationalStudentsDay #StudentsDay #Students #StudentLife #Education #Learning #FutureLeaders #SchoolCommunity #StudentSuccess #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Vibrant optimistic flat illustration of a diverse group of secondary school students in uniforms laughing together on school steps, one holding books, one with a backpack, one waving, colourful geometric shapes and small stars in the background, bright blue, sunny yellow and coral palette, energetic celebratory mood, large empty space at top for a headline, small empty area bottom right for a logo, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w6-fb",
+  "week": 6,
+  "date": "2026-11-18",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "If the school laptop got lost tomorrow, what would you lose?",
+  "caption": "Quick question for school leaders 👇\n\nIf the main office laptop went missing tomorrow, what would your school lose? Fee records? Student files? This term's results?\n\nWith Scholarstika, records live securely in the cloud and are backed up automatically, so a lost laptop is just a lost laptop.\n\nBook a free demo at scholarstika.org",
+  "hashtags": "#SchoolAdmin #DataSecurity #SchoolManagement #EdTech #CloudBackup #SchoolLeaders #DigitalSchool #StudentRecords #SchoolOwners #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Photorealistic image of an empty school office desk with a faint dust outline where a laptop used to be, a single sticky note and a coffee mug left behind, soft afternoon light through blinds, slightly suspenseful but not alarming mood, muted blue tones, shallow depth of field, empty space at top for text, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w6-ig",
+  "week": 6,
+  "date": "2026-11-19",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 10 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "When you find out the school's entire database is on one USB drive",
+  "caption": "When you find out the school's entire database is on one USB drive 😳\n\nCloud backup means your records don't depend on one tiny stick.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#SchoolLife #ITLife #EdTech #DataSecurity #WorkHumor #OfficeHumor #ReelsInstagram #SchoolAdmin #TechHumor #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (10 sec, 9:16)",
+    "text": "Vertical comedic short, school IT room. Shot 1 (0–3s): a new IT officer asks a colleague a question, the colleague proudly holds up a single small USB drive. Shot 2 (3–5s): extreme slow zoom on the IT officer's horrified face, dramatic thunder sound sting, lights flicker. Shot 3 (5–8s): cut to the same officer calmly showing a laptop with a bright cloud backup screen and green check marks. Shot 4 (8–10s): he gently places the USB drive in a small glass case labelled like a museum piece, deadpan look to camera. Bright clean lighting, comedic timing, caption space top and bottom, no brand logos."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of a shocked IT staff member staring at a tiny glowing USB drive held up like a treasure, exaggerated expression, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-child",
+  "week": 6,
+  "date": "2026-11-20",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "World Children's Day: Every child deserves to be seen.",
+  "caption": "Happy World Children's Day 🌍\n\nEvery child deserves to be seen, heard and given the chance to learn. Behind every school record is a child with a story still being written.\n\nHere's to the teachers and schools helping write it well.",
+  "hashtags": "#WorldChildrensDay #ChildrensDay #ChildRights #EveryChild #Education #Children #SchoolCommunity #Teachers #Learning #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Joyful flat illustration of young children of different backgrounds holding hands in a circle around a small globe on a school playground, bright blue sky, a few kites in soft blue and yellow, warm sunny palette, hopeful celebratory mood, large empty space at top for a headline, small empty area bottom right for a logo, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w6-blog",
+  "week": 6,
+  "date": "2026-11-20",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,300 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "Is Cloud-Based School Management Software Secure? A Guide for IT Directors",
+  "caption": "What IT directors and school owners should check before trusting student, staff and finance data to a cloud platform: storage, access control, backups and vendor questions.",
+  "hashtags": "#DataSecurity #ITinEducation #CloudComputing #SchoolManagementSoftware #EdTech #DataProtection #SchoolLeadership #CyberSecurity #EducationTechnology #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Clean editorial illustration of a glowing cloud with a shield and padlock floating above a modern school building, faint connecting lines to small icons of a student card, a coin and a staff badge, cool navy and teal palette, subtle grid background, calm trustworthy mood, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "cloud school management software",
+   "slug": "/blog/is-cloud-school-software-secure",
+   "meta": "Is cloud school management software secure? A practical checklist for IT directors on encryption, access control, backups and the questions to ask vendors.",
+   "outline": [
+    "Where school data lives today, and the risks",
+    "Cloud vs. local storage: an honest comparison",
+    "Encryption in storage and in transit",
+    "Role-based access: who sees what",
+    "Backups and recovery",
+    "Questions to ask any vendor",
+    "How Scholarstika approaches security",
+    "FAQ: internet outages, data ownership, exports"
+   ]
+  }
+ },
+ {
+  "id": "w7-li",
+  "week": 7,
+  "date": "2026-11-23",
+  "time": "09:00",
+  "kind": "carousel",
+  "format": "Carousel · 6 slides",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "How to Talk to Parents About Fees Without Awkward Phone Calls",
+  "caption": "Fee conversations don't have to be awkward. Most of the discomfort comes from surprise: a parent who didn't know a balance was outstanding until the end of term.\n\nFour habits that keep fee communication calm:\n1. Send statements early, not at the deadline\n2. Make balances visible at any time\n3. Remind on a schedule, in a friendly tone\n4. Confirm every payment the same day\n\nSwipe for the details.",
+  "hashtags": "#SchoolFinance #ParentEngagement #SchoolLeadership #Bursar #SchoolFees #SchoolManagement #EdTech #SchoolCommunication #K12Admin #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Flat corporate illustration of a parent and a school bursar smiling across a desk, a phone and a neat fee statement between them, soft navy and teal palette, friendly professional mood, empty space at top for a headline, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of a calendar with an early date circled and a paper statement flying out of an envelope, navy and teal, white background, no text."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of a smartphone showing a simple balance card with an eye icon, navy and teal, white background, no text."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of a friendly notification bell with a small smiley speech bubble and a repeating clock arrow, navy and teal, white background, no text."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat icon of a receipt with a green check and a lightning bolt for 'same day', navy and teal, white background, no text."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Clean laptop showing a finance dashboard with a list of payments marked confirmed, navy background with soft teal glow, space at bottom for logo and URL, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w7-fb",
+  "week": 7,
+  "date": "2026-11-25",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "Parents: no more guessing what's still owed.",
+  "caption": "Parents shouldn't have to call the school office to find out what's still owed. 📲\n\nWith Scholarstika, schools can share clear fee statements and send friendly reminders automatically, and every payment is confirmed the same day.\n\nLess back and forth. More trust on both sides.",
+  "hashtags": "#SchoolFees #Parents #ParentsAndSchools #SchoolAdmin #SchoolFinance #EdTech #PaymentReminders #SchoolManagement #DigitalSchool #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Photorealistic lifestyle image of a relaxed African parent at a kitchen table in the evening, holding a smartphone that shows a clean blue fee statement card with a green paid check, a child doing homework beside them, warm home lighting, calm reassuring mood, shallow depth of field, empty space at top for text, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w7-ig",
+  "week": 7,
+  "date": "2026-11-26",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 12 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Parents at pickup asking 'how much is left to pay?'",
+  "caption": "Parents at pickup: 'How much is left to pay?' 🧾\n\nYou, with every balance one tap away.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#SchoolLife #ParentsOfInstagram #SchoolFees #EdTech #BursarLife #SchoolHumor #ReelsInstagram #SchoolAdmin #SchoolRun #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (12 sec, 9:16)",
+    "text": "Vertical light comedy at a school gate during afternoon pickup. Shot 1 (0–3s): a queue of three parents approaches a school staff member, each asking a question. Shot 2 (3–6s): the staff member pats pockets and looks at a thick paper ledger in panic, comedic sound. Shot 3 (6–10s): cut, same staff member calmly holds up a tablet, taps once, turns the screen to each parent who nods and smiles in turn. Shot 4 (10–12s): staff member gives a wink to camera as the queue disappears. Sunny afternoon light, bright colours, quick cuts, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of a school staff member at the gate facing a line of parents, juggling a huge paper ledger, exaggerated flustered expression, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w7-blog",
+  "week": 7,
+  "date": "2026-11-27",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,000 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Communicate School Fees to Parents Clearly: Templates and Timing",
+  "caption": "A practical guide for bursars with ready-to-adapt reminder messages, a sensible reminder schedule and tips for keeping fee conversations respectful.",
+  "hashtags": "#SchoolFees #SchoolFinance #Bursar #ParentEngagement #SchoolCommunication #SchoolAdmin #SchoolManagementSoftware #EdTech #PaymentReminders #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of three friendly message cards fanned out above a smartphone, each with a small calendar icon at a different date, a green check on the last one, soft teal and navy background, clean modern style, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "school fee reminder",
+   "slug": "/blog/school-fee-reminder-templates",
+   "meta": "Clear, friendly school fee reminders that parents respond to. Templates, timing and tone tips for bursars, plus how to automate them.",
+   "outline": [
+    "Why fee reminders go wrong",
+    "A reminder schedule that works",
+    "Template: start-of-term statement",
+    "Template: friendly mid-term reminder",
+    "Template: final reminder before the deadline",
+    "Confirming payments and saying thank you",
+    "Automating reminders with Scholarstika",
+    "FAQ: instalments, siblings, sensitive cases"
+   ]
+  }
+ },
+ {
+  "id": "w8-li",
+  "week": 8,
+  "date": "2026-11-30",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "Late Results Cost More Than Time. They Cost Trust.",
+  "caption": "When results go out late, or go out with errors, parents notice. So do students.\n\nMost delays don't come from teachers. They come from the process in between: mark sheets passed by hand, grades calculated twice, result slips typed one by one.\n\nAutomating that middle step is the fastest way to protect your school's reputation at the end of term.\n\nscholarstika.org",
+  "hashtags": "#ExamResults #SchoolLeadership #ExamSeason #SchoolManagement #EdTech #Principals #SchoolReputation #AssessmentForLearning #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Clean professional vector illustration of a result slip on a desk beside an hourglass running low, a faint cracked heart-shaped trust icon in the background, contrasted with a neat stack of on-time result slips with a green check on the right, navy, soft blue and amber palette, serious tone, empty space at top for a headline, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "nm-dec",
+  "week": 8,
+  "date": "2026-12-01",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "flyer",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "Happy New Month! Welcome, December.",
+  "caption": "Happy New Month! ✨\n\nWelcome, December, the last stretch of 2026. Wishing every school a smooth exam season, results that go out on time and a restful holiday ahead.\n\nFrom all of us at Scholarstika.",
+  "hashtags": "#HappyNewMonth #December #NewMonth #Teachers #SchoolLeaders #SchoolCommunity #Education #SchoolLife #NewMonthBlessings #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Elegant festive flyer background for a school software brand: deep navy backdrop with soft gold sparkles and a few subtle snowflake and star shapes in the top corners, a small stack of books with a ribbon at the bottom, warm gold and white accents, large clear central space for the words Happy New Month and December, small empty area at the bottom right for a logo, modern flat illustration style, festive but professional, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w8-fb",
+  "week": 8,
+  "date": "2026-12-02",
+  "time": "12:00",
+  "kind": "carousel",
+  "format": "Carousel · 6 slides",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "5 Result-Day Mistakes (and How to Avoid Them)",
+  "caption": "Result day should be a good day. Here are five mistakes that make it stressful, and how to avoid every one. 📋\n\n1. Mixed-up mark sheets\n2. Grades calculated by hand\n3. Typos on result slips\n4. Last-minute printing\n5. No clear release date for parents\n\nSwipe through. Which one has caught your school out?",
+  "hashtags": "#ExamResults #ResultDay #Teachers #SchoolAdmin #ExamSeason #EdTech #SchoolManagement #ResultSlips #TeacherLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Friendly flat illustration of a teacher holding a result slip with a worried expression, small warning triangles floating around, warm orange and navy palette, space at top for a title, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of two shuffled mark sheets with an arrow tangle between them, a large numbered circle 1 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of a hand with a pencil and calculator surrounded by question marks, a large numbered circle 2 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of a result slip with one cell circled in red, a large numbered circle 3 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat icon of a printer with a jammed page and a clock showing almost midnight, a large numbered circle 4 in the corner, warm palette, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Minimal flat icon of a calendar with a single release date marked by a star and a phone notification, a large numbered circle 5 in the corner, warm palette, white background, space for a call-to-action button, no text other than the number."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-idpd",
+  "week": 8,
+  "date": "2026-12-03",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "International Day of Persons with Disabilities: Every learner belongs.",
+  "caption": "Today is the International Day of Persons with Disabilities.\n\nEvery learner belongs, and every school can do a little more to make classrooms, buildings and communication accessible to all.\n\nWe celebrate the teachers, families and students making inclusion real every day.",
+  "hashtags": "#IDPD #InternationalDayOfPersonsWithDisabilities #InclusiveEducation #Inclusion #Accessibility #EveryLearnerBelongs #Education #SchoolCommunity #DisabilityInclusion #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Respectful, warm flat illustration of an inclusive classroom: a student using a wheelchair working at a desk with classmates, a student with a hearing aid smiling, a teacher signing to a student, accessible ramp visible at the doorway, soft purple, teal and cream palette, dignified and positive mood, large empty space at top for a headline, small empty area bottom right for a logo, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w8-ig",
+  "week": 8,
+  "date": "2026-12-03",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 10 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Exam officer when the result slips print perfectly the first time",
+  "caption": "Exam officer when the result slips print perfectly the first time 🥹\n\nNo retyping. No recalculating. Just results, ready.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#ExamSeason #TeacherLife #ResultDay #EdTech #SchoolHumor #TeachersOfInstagram #ReelsInstagram #SchoolAdmin #Satisfying #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (10 sec, 9:16)",
+    "text": "Vertical feel-good short, school office. Shot 1 (0–2s): an exam officer clicks Print on a laptop, holds breath, eyes squeezed shut. Shot 2 (2–6s): satisfying slow-motion shot of neat result slips sliding out of a printer one after another, soft glowing light, gentle choir 'ahh' sound. Shot 3 (6–8s): the officer opens one eye, then picks up a slip and checks it, wide relieved smile. Shot 4 (8–10s): she hugs the stack of slips and does a small happy dance. Warm bright lighting, wholesome comedic tone, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of an exam officer hugging a stack of perfect result slips with happy tears, sparkles around the printer, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w8-blog",
+  "week": 8,
+  "date": "2026-12-04",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,100 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "Result Day Checklist: How to Release Exam Results Accurately and On Time",
+  "caption": "A step-by-step result day checklist for principals and exam officers, from mark verification to the moment results reach parents.",
+  "hashtags": "#ExamResults #ResultDay #SchoolManagementSoftware #ExamSeason #SchoolAdmin #Principals #ResultSlips #EdTech #AssessmentForLearning #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of a large clipboard checklist with six ticked rows beside a neat stack of result slips and a calendar with one date starred, warm orange and navy background, clean modern style, soft shadows, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "school result management system",
+   "slug": "/blog/result-day-checklist",
+   "meta": "Release exam results accurately and on time with this result day checklist for principals and exam officers, from mark verification to parent release.",
+   "outline": [
+    "Two weeks before: lock the grading scale",
+    "One week before: close mark entry",
+    "Verify marks and spot outliers",
+    "Compute grades and positions",
+    "Generate and proofread result slips",
+    "Set and announce the release date",
+    "How Scholarstika automates each step",
+    "FAQ: corrections after release, missing marks"
+   ]
+  }
+ },
+ {
+  "id": "w9-li",
+  "week": 9,
+  "date": "2026-12-07",
+  "time": "09:00",
+  "kind": "carousel",
+  "format": "Carousel · 6 slides",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "What a Good Report Card Tells a Parent",
+  "caption": "A report card is the most-read document your school sends home. Most are read in under two minutes.\n\nIn that time, a good one answers five questions:\n1. How is my child doing overall?\n2. Where are they strong?\n3. Where do they need help?\n4. How is their attendance?\n5. What happens next term?\n\nSwipe to see how to design a report card that answers all five.",
+  "hashtags": "#ReportCards #SchoolLeadership #ParentEngagement #StudentData #SchoolManagement #EdTech #AssessmentForLearning #Teachers #K12Admin #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Flat corporate illustration of a parent reading a clean, well-designed report card at a table, a small stopwatch icon beside them, navy and soft green palette, empty space at top for a headline, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of a report card with a simple overall grade badge highlighted, navy and soft green, white background, no text."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of a bar chart with the tallest bar topped by a star, navy and soft green, white background, no text."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of a small upward arrow and a helping hand next to a subject book, navy and soft green, white background, no text."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat icon of an attendance calendar with mostly green ticks, navy and soft green, white background, no text."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Minimal flat icon of a signpost pointing forward to a calendar labelled with a small flag, navy and soft green, white background, space at bottom for logo and URL, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w9-fb",
+  "week": 9,
+  "date": "2026-12-09",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "Report card week: the most-read document your school sends home.",
+  "caption": "It's report card week in many schools! 📝\n\nThe report card is the most-read document a school sends home. With Scholarstika, grades, attendance and teacher comments come together in one clean report card, generated straight from the student's record.\n\nNo copying, no retyping, no missing pages.",
+  "hashtags": "#ReportCards #EndOfTerm #Parents #SchoolAdmin #Teachers #StudentData #EdTech #SchoolManagement #SchoolLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Bright warm photorealistic image of a proud African student around 12 years old holding up a neat printed report card in a school hallway decorated for the end of term, a parent smiling in the soft-focus background, natural daylight, joyful mood, empty space at top for text, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w9-ig",
+  "week": 9,
+  "date": "2026-12-10",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 12 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Teachers writing 40 report card comments by hand",
+  "caption": "Teachers writing 40 report card comments by hand at 11pm ✍️😩\n\nThere's a better way to bring grades, attendance and comments together.\n\n📩 Link in bio for a free demo.",
+  "hashtags": "#TeacherLife #ReportCards #TeachersOfInstagram #EndOfTerm #EdTech #TeacherHumor #SchoolHumor #ReelsInstagram #SchoolLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (12 sec, 9:16)",
+    "text": "Vertical comedic short, teacher at home at night. Shot 1 (0–3s): a teacher at a kitchen table with a tall stack of blank report cards, writing by hand, clock reading 11pm. Shot 2 (3–6s): fast-motion of the hand cramping, the teacher shaking it out dramatically, pen running out of ink. Shot 3 (6–9s): cut to daytime, same teacher at a laptop, comments and grades flowing into a clean report card template, satisfying 'ding'. Shot 4 (9–12s): teacher closes the laptop and stretches with a relaxed smile, sunset light. Strong night versus day contrast, meme pacing, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of a teacher with an exhausted face buried under a mountain of blank report cards, pen in hand, night lamp glow, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w9-blog",
+  "week": 9,
+  "date": "2026-12-11",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,100 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Write and Generate Report Cards Faster This Term",
+  "caption": "Practical advice for teachers and school leaders on report card design, useful comments and generating report cards straight from student records.",
+  "hashtags": "#ReportCards #Teachers #SchoolManagementSoftware #EdTech #EndOfTerm #StudentData #AssessmentForLearning #SchoolAdmin #TeacherLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of a crisp report card emerging from a laptop screen with small icons flowing into it (an attendance calendar, a grade chart, a speech bubble for comments), soft green and navy background, clean modern style, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "report card software",
+   "slug": "/blog/generate-report-cards-faster",
+   "meta": "Write better report card comments and generate report cards faster. Design tips, comment ideas and how to pull grades and attendance in automatically.",
+   "outline": [
+    "What parents look for first",
+    "Designing a clear report card layout",
+    "Writing comments that are specific and kind",
+    "Pulling in grades and attendance automatically",
+    "Review and sign-off before printing",
+    "Sharing report cards with parents",
+    "How Scholarstika generates report cards",
+    "FAQ: custom templates, comment banks, reprints"
+   ]
+  }
+ },
+ {
+  "id": "w10-li",
+  "week": 10,
+  "date": "2026-12-14",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "Before the Break: 3 Staff Conversations Every School Leader Should Have",
+  "caption": "Before your staff leave for the holidays, three conversations are worth having:\n\n1. The appraisal: what went well this term and what support they need next term.\n2. The leave plan: who is away, and when, in January.\n3. The thank-you: specific, personal and on the record.\n\nAll three are easier when staff records, leave balances and appraisals live in one system.",
+  "hashtags": "#SchoolLeadership #HRforSchools #StaffManagement #StaffAppraisal #Principals #EdTech #SchoolManagement #TeacherWellbeing #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Professional flat illustration of a principal and a teacher having a relaxed conversation at a small round table in a bright office, three floating speech-bubble icons above them (a clipboard, a calendar, a heart), navy and soft yellow palette, warm supportive mood, empty space at top for a headline, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w10-fb",
+  "week": 10,
+  "date": "2026-12-16",
+  "time": "12:00",
+  "kind": "carousel",
+  "format": "Carousel · 5 slides",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "Plan Staff Leave for the Holidays in 4 Steps",
+  "caption": "The holidays are close! 🗓️ Before everyone heads off, here's how to plan staff leave so January starts fully staffed:\n\n1. Collect leave requests in one place\n2. Check balances before approving\n3. Spot gaps in the first week back\n4. Confirm cover before the break\n\nSwipe through, and enjoy a calmer start to next term.",
+  "hashtags": "#StaffManagement #SchoolAdmin #HRforSchools #Holidays #SchoolLeaders #EdTech #SchoolManagement #EndOfTerm #TeamWork #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Friendly flat illustration of a wall calendar for late December and early January with a few days marked by small suitcase and palm tree icons, navy and soft yellow palette, space at top for a title, no text."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of several leave request cards dropping into one tray, a large numbered circle 1 in the corner, navy and soft yellow, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of a leave balance gauge with a check mark, a large numbered circle 2 in the corner, navy and soft yellow, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of a January timetable with one empty slot highlighted by a magnifying glass, a large numbered circle 3 in the corner, navy and soft yellow, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat icon of a teacher avatar placed into the empty slot with a green check, a large numbered circle 4 in the corner, navy and soft yellow, white background, space for a call-to-action button, no text other than the number."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w10-ig",
+  "week": 10,
+  "date": "2026-12-17",
+  "time": "18:00",
+  "kind": "video",
+  "format": "Reel · 10 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "Last day of term energy",
+  "caption": "Last day of term energy 🎉\n\nResults out. Report cards home. Leave approved. Now rest!\n\nTag the colleague you're celebrating with today.",
+  "hashtags": "#LastDayOfTerm #TeacherLife #EndOfTerm #SchoolLife #TeachersOfInstagram #HolidayMode #SchoolHumor #ReelsInstagram #EdTech #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (10 sec, 9:16)",
+    "text": "Vertical celebratory short, school staff room. Shot 1 (0–2s): a teacher ticks the last item on a checklist on a laptop, a green check appears. Shot 2 (2–5s): she snaps the laptop shut and the staff room erupts, colleagues cheering, one tossing paper confetti. Shot 3 (5–8s): quick fun montage of staff high-fiving, one teacher doing a small dance with a mug, another putting on sunglasses. Shot 4 (8–10s): group waves goodbye at the school gate in golden late-afternoon light. Upbeat energetic tone, bright colours, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cartoon of a cheerful group of teachers throwing paper confetti in a staff room, one wearing sunglasses, bright saturated colours, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w10-blog",
+  "week": 10,
+  "date": "2026-12-18",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,100 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Run Fair, Fast Staff Appraisals at the End of the Year",
+  "caption": "A guide for principals on running end-of-year staff appraisals that are fair, evidence-based and quick to complete, with a simple template structure.",
+  "hashtags": "#StaffAppraisal #HRforSchools #SchoolLeadership #StaffManagement #SchoolManagementSoftware #Principals #TeacherDevelopment #EdTech #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of a clipboard with a simple appraisal form, a balanced scale icon and a small growing plant beside it, navy and soft yellow background, clean modern style, calm supportive mood, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "staff appraisal software for schools",
+   "slug": "/blog/end-of-year-staff-appraisals",
+   "meta": "Run fair, fast end-of-year staff appraisals. A practical guide for principals with a simple structure, evidence tips and how to keep records in one place.",
+   "outline": [
+    "Why end-of-year appraisals get rushed",
+    "Agreeing criteria at the start",
+    "Gathering evidence through the term",
+    "A simple appraisal conversation structure",
+    "Recording outcomes and next steps",
+    "Linking appraisals to training and leave",
+    "How Scholarstika keeps appraisal records",
+    "FAQ: self-assessment, peer input, disputes"
+   ]
+  }
+ },
+ {
+  "id": "w11-li",
+  "week": 11,
+  "date": "2026-12-21",
+  "time": "09:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "The Quietest Two Weeks of the Year Are the Best Time to Fix Next Term",
+  "caption": "The school is quiet. The phones have stopped. For most school leaders, these are the only two weeks of the year without an urgent problem.\n\nThat makes them the best time to fix the processes that caused the most stress this term, whether that was fee tracking, results or staff cover.\n\nIf you're planning a switch to school management software for second term, now is the window.\n\nscholarstika.org",
+  "hashtags": "#SchoolLeadership #SchoolPlanning #SchoolManagement #EdTech #NextTerm #Principals #DigitalTransformation #SchoolOperations #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1.91:1 or 1:1)",
+    "text": "Calm atmospheric vector illustration of an empty, tidy school office during the holidays, soft winter-morning light through the window, a single laptop open showing a planning board, a mug of tea and a small potted plant with a few festive lights on the windowsill, navy and warm gold palette, peaceful reflective mood, empty space at top for a headline, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w11-blog",
+  "week": 11,
+  "date": "2026-12-22",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,300 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "Second-Term Readiness Checklist: 10 Things to Set Up During the Holidays",
+  "caption": "A holiday checklist for principals and administrators: ten things to set up before second term starts, from class lists and fee schedules to timetables and staff records.",
+  "hashtags": "#SchoolPlanning #NextTerm #SchoolManagementSoftware #SchoolAdmin #Principals #SchoolLeadership #EdTech #BackToSchool #SchoolOperations #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of a clipboard checklist with ten small ticked rows resting on a desk beside a January calendar, a mug of tea and a sprig of festive greenery, warm navy and gold palette, cosy holiday mood, empty space on the left for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "school management system setup",
+   "slug": "/blog/second-term-readiness-checklist",
+   "meta": "Get your school ready for second term with this 10-point holiday checklist: class lists, fees, timetables, staff records and more.",
+   "outline": [
+    "Why the holidays are the right time",
+    "1–3: class lists, new enrollments, transfers",
+    "4–5: fee schedules and outstanding balances",
+    "6–7: timetable and exam calendar",
+    "8–9: staff records, leave and cover",
+    "10: parent communication plan",
+    "Moving it all into one platform",
+    "FAQ: data migration, training before resumption"
+   ]
+  }
+ },
+ {
+  "id": "w11-fb",
+  "week": 11,
+  "date": "2026-12-23",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "What's the one thing you want to run smoother next term?",
+  "caption": "Before we all switch off for the holidays, one question for school leaders 👇\n\nWhat's the ONE thing you want to run smoother next term?\n\n🅰️ Fee collection\n🅱️ Exams and results\n🅲 Staff leave and cover\n🅳 Student records\n\nTell us in the comments!",
+  "hashtags": "#SchoolLeaders #SchoolAdmin #NextTerm #SchoolCommunity #EdTech #SchoolManagement #Teachers #Principals #SchoolLife #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1:1 or 4:5)",
+    "text": "Bright friendly poll-style graphic: four large rounded tiles in a 2x2 grid on a soft navy background, each with one simple icon (a wallet with coin, an exam paper with graduation cap, a staff badge with calendar, a student ID card), the tiles labelled only with large letters A, B, C, D, small festive sparkles around the edges, clean flat design, space at top for a question headline, no other text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w11-ig",
+  "week": 11,
+  "date": "2026-12-24",
+  "time": "17:00",
+  "kind": "video",
+  "format": "Reel · 8 sec · 9:16",
+  "type": "regular",
+  "channels": [
+   "instagram"
+  ],
+  "heading": "School office, last day before Christmas",
+  "caption": "The school office, last day before Christmas 🎄\n\nRecords saved. Results out. Lights off. See you in the new year!",
+  "hashtags": "#ChristmasEve #SchoolLife #HolidayMode #TeacherLife #EndOfYear #ChristmasVibes #SchoolOffice #ReelsInstagram #SeasonsGreetings #Scholarstika",
+  "prompts": [
+   {
+    "label": "Video (8 sec, 9:16)",
+    "text": "Vertical cosy short, school office at dusk on Christmas Eve. Shot 1 (0–3s): slow pan across a tidy office desk with a small decorated Christmas tree and string lights, a laptop showing a green 'all saved' check. Shot 2 (3–5s): a hand gently closes the laptop. Shot 3 (5–7s): an administrator in a coat switches off the lights at the door, only the fairy lights still glowing. Shot 4 (7–8s): the door closes softly. Warm golden light, gentle piano and sleigh bells, peaceful festive mood, caption space top and bottom."
+   },
+   {
+    "label": "Reel cover",
+    "text": "Vertical 9:16 cosy illustration of a dark school office lit only by Christmas fairy lights and a small tree on the desk, a closed laptop, warm gold glow, empty banner space at top, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-xmas",
+  "week": 11,
+  "date": "2026-12-25",
+  "time": "08:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "Merry Christmas from Scholarstika",
+  "caption": "Merry Christmas! 🎄\n\nTo every school leader, teacher, bursar, administrator, parent and student: thank you for an incredible year of learning. May your Christmas be full of peace, joy and well-earned rest.\n\nWith warm wishes from all of us at Scholarstika.",
+  "hashtags": "#MerryChristmas #Christmas2026 #SeasonsGreetings #ChristmasDay #Teachers #SchoolCommunity #Education #HolidaySeason #Gratitude #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Elegant Christmas greeting flyer: deep navy background with a softly glowing Christmas tree made of small books, pencils and graduation caps arranged like ornaments, gold star on top, gentle falling snow dots, warm gold, red and white accents, refined festive mood, large clear space at top for the words Merry Christmas, small empty area bottom right for a logo, modern flat illustration style, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-box",
+  "week": 11,
+  "date": "2026-12-26",
+  "time": "10:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "Happy Boxing Day: rest, recharge, repeat.",
+  "caption": "Happy Boxing Day! 🎁\n\nNo lesson plans, no fee reports, no exam scripts. Just rest, family and leftovers.\n\nSchool leaders and teachers, you've earned this one. Enjoy it.",
+  "hashtags": "#BoxingDay #HappyBoxingDay #HolidaySeason #RestAndRecharge #Teachers #SchoolLeaders #FestiveSeason #SelfCare #SchoolCommunity #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Cheerful relaxed flat illustration of an open gift box overflowing with soft confetti, a cosy mug of hot chocolate and a closed teacher's planner with a ribbon tied around it, warm red, gold and cream palette on a light background, playful restful holiday mood, large empty space at top for a headline, small empty area bottom right for a logo, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w12-li",
+  "week": 12,
+  "date": "2026-12-28",
+  "time": "09:00",
+  "kind": "carousel",
+  "format": "Carousel · 7 slides",
+  "type": "regular",
+  "channels": [
+   "linkedin"
+  ],
+  "heading": "5 Resolutions for School Leaders in 2027",
+  "caption": "Five resolutions for school leaders heading into 2027:\n\n1. Know every outstanding fee at a glance\n2. Release results on the date you promise\n3. Never scramble for cover at 7am again\n4. Find any student record in seconds\n5. Keep all of it in one secure place\n\nSwipe through. Which one is top of your list?",
+  "hashtags": "#NewYearResolutions #SchoolLeadership #2027Goals #SchoolManagement #EdTech #Principals #SchoolOperations #DigitalTransformation #EducationLeadership #Scholarstika",
+  "prompts": [
+   {
+    "label": "Slide 1",
+    "text": "Festive corporate illustration of a 2027 desk calendar on a clean desk beside a notebook with a pen and a small sparkler, navy and gold palette, optimistic mood, empty space at top for a headline, no text other than the year."
+   },
+   {
+    "label": "Slide 2",
+    "text": "Minimal flat icon of a wallet with a magnifying glass showing a clear balance, a large numbered circle 1 in the corner, navy and gold, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 3",
+    "text": "Minimal flat icon of a result slip with a calendar date starred, a large numbered circle 2 in the corner, navy and gold, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 4",
+    "text": "Minimal flat icon of a sunrise clock at 7am with a green check over a teacher avatar, a large numbered circle 3 in the corner, navy and gold, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 5",
+    "text": "Minimal flat icon of a search bar finding a student profile card with a lightning bolt, a large numbered circle 4 in the corner, navy and gold, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 6",
+    "text": "Minimal flat icon of a secure cloud with a shield holding four small icons, a large numbered circle 5 in the corner, navy and gold, white background, no text other than the number."
+   },
+   {
+    "label": "Slide 7",
+    "text": "Celebratory illustration of fireworks over a modern school building at night, navy and gold palette, space at bottom for logo and URL, no text."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "w12-blog",
+  "week": 12,
+  "date": "2026-12-29",
+  "time": "10:00",
+  "kind": "blog",
+  "format": "Blog post · ~1,200 words",
+  "type": "regular",
+  "channels": [],
+  "heading": "How to Move Your School From Spreadsheets to Software in January",
+  "caption": "A practical January transition plan for schools moving from spreadsheets and paper to a school management platform, with a week-by-week timeline and data migration tips.",
+  "hashtags": "#SchoolManagementSoftware #DigitalTransformation #SchoolAdmin #NewYear #SchoolLeadership #EdTech #DataMigration #SchoolPlanning #EducationTechnology #Scholarstika",
+  "prompts": [
+   {
+    "label": "Featured image (16:9)",
+    "text": "Editorial illustration of a messy spreadsheet printout on the left morphing through a smooth arrow into a clean laptop dashboard on the right, a small January calendar in the corner, navy and gold background, fresh optimistic new-year mood, empty space at top for a blog title, no text."
+   }
+  ],
+  "blog": {
+   "kw": "switch to school management software",
+   "slug": "/blog/move-from-spreadsheets-to-school-software",
+   "meta": "Moving your school from spreadsheets to software in January? A week-by-week plan covering data migration, staff training and a smooth go-live.",
+   "outline": [
+    "Signs your school has outgrown spreadsheets",
+    "Week 1: gather and clean your data",
+    "Week 2: set up classes, fees and staff",
+    "Week 3: train staff in short sessions",
+    "Week 4: go live and support everyone",
+    "Common mistakes to avoid",
+    "How Scholarstika supports onboarding",
+    "FAQ: historical records, parallel running, cost"
+   ]
+  }
+ },
+ {
+  "id": "w12-fb",
+  "week": 12,
+  "date": "2026-12-30",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Single image",
+  "type": "regular",
+  "channels": [
+   "facebook"
+  ],
+  "heading": "Out with the paper registers. In with a calmer 2027.",
+  "caption": "Out with the paper registers, the sticky notes and the 1am grading sessions. 📦\n\nIn with a calmer 2027. ✨\n\nIf your school is ready to simplify its process next term, book a free demo at scholarstika.org and start the year organised.",
+  "hashtags": "#NewYear #2027 #SchoolAdmin #SchoolManagement #EdTech #NewYearNewYou #DigitalSchool #SchoolLeaders #FreshStart #Scholarstika",
+  "prompts": [
+   {
+    "label": "Image (1:1 or 4:5)",
+    "text": "Playful split illustration: on the left, a cardboard box labelled with a simple 2026 tag filled with paper registers, sticky notes and a cracked calculator, muted grey tones; on the right, a bright tidy desk with a laptop showing a clean dashboard and a small 2027 desk sign, confetti and gold sparkles, navy and gold palette, fresh-start mood, empty space at top for a headline, no text other than the years."
+   }
+  ],
+  "blog": null
+ },
+ {
+  "id": "hol-nye",
+  "week": 12,
+  "date": "2026-12-31",
+  "time": "12:00",
+  "kind": "image",
+  "format": "Flyer · 1:1 + 4:5",
+  "type": "holiday",
+  "channels": [
+   "facebook",
+   "instagram",
+   "linkedin"
+  ],
+  "heading": "Goodbye 2026. Hello 2027.",
+  "caption": "Goodbye 2026. Hello 2027! 🎆\n\nThank you to every school that learned, grew and simplified with us this year. Here's to a new year of calmer offices, happier teachers and brighter students.\n\nHappy New Year from all of us at Scholarstika.",
+  "hashtags": "#HappyNewYear #NewYearsEve #Goodbye2026 #Hello2027 #NewYear2027 #SchoolCommunity #Teachers #Education #Gratitude #Scholarstika",
+  "prompts": [
+   {
+    "label": "Flyer image (1:1 and 4:5)",
+    "text": "Celebratory New Year's Eve flyer: night sky in deep navy with gold and white fireworks bursting above a modern school building silhouette, a subtle clock face at midnight, small graduation-cap shaped confetti floating down, gold and white accents, joyful elegant mood, large clear space in the centre for the words Goodbye 2026, Hello 2027, small empty area bottom right for a logo, modern flat illustration style, no text."
+   }
+  ],
+  "blog": null
+ }
+]

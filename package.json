@@ -1,0 +1,25 @@
+{
+  "name": "scholarstika-autoposter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Schedules and auto-publishes Scholarstika's content plan to a Facebook Page, Instagram and LinkedIn. Runs on Vercel.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@upstash/redis": "1.39.0",
+    "@vercel/blob": "2.8.2",
+    "next": "15.5.27",
+    "react": "19.1.10",
+    "react-dom": "19.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "typescript": "5.7.2"
+  }
+}
