@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 type Config = {
-  meta: { appId: string; pageId: string; hasSecret: boolean; lockedByEnv: boolean };
+  meta: { appId: string; pageId: string; configId: string; hasSecret: boolean; lockedByEnv: boolean };
   linkedin: { clientId: string; orgId: string; hasSecret: boolean; lockedByEnv: boolean };
   wordpress: { siteUrl: string; username: string; status: string; categoryId: string; hasSecret: boolean; lockedByEnv: boolean };
 };
@@ -61,7 +61,7 @@ export default function ConnectClient({ origin, initial }: { origin: string; ini
   const [msg, setMsg] = useState<Record<string, { kind: "ok" | "bad"; text: string } | undefined>>({});
   const [confirmRemove, setConfirmRemove] = useState<Platform | "">("");
 
-  const [meta, setMeta] = useState({ appId: initial.meta.appId, appSecret: "", pageId: initial.meta.pageId });
+  const [meta, setMeta] = useState({ appId: initial.meta.appId, appSecret: "", pageId: initial.meta.pageId, configId: initial.meta.configId });
   const [li, setLi] = useState({ clientId: initial.linkedin.clientId, clientSecret: "", orgId: initial.linkedin.orgId });
   const [wp, setWp] = useState({
     siteUrl: initial.wordpress.siteUrl,
@@ -171,19 +171,53 @@ export default function ConnectClient({ origin, initial }: { origin: string; ini
         <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gap: 14 }}>
           <Step n={1}>
             <span>
-              Open <a href="https://developers.facebook.com/apps/creation/" {...ext}>Meta for Developers → Create app ↗</a>, signed in with the Facebook
-              account that manages the Page. Choose the use case <b>Manage everything on your Page</b> (or <b>Other → Business</b>) and name it
-              &quot;Scholarstika Scheduler&quot;.
+              <b>Create the app.</b> Open <a href="https://developers.facebook.com/apps/" {...ext}>Meta for Developers → My Apps ↗</a> (signed in with the
+              Facebook account that is an admin of the Scholarstika Page) and click <b>Create App</b>. On <b>App details</b>, enter the name
+              &quot;Scholarstika Scheduler&quot; and your contact email, then click Next.
             </span>
           </Step>
           <Step n={2}>
             <span>
-              In the app, add <b>Facebook Login for Business</b>. Open its <b>Settings</b> and paste this into <b>Valid OAuth Redirect URIs</b>, then Save:
+              <b>Pick the use cases.</b> Tick <b>Manage everything on your Page</b>. If it&apos;s offered on the same screen, also tick{" "}
+              <b>Manage messaging &amp; content on Instagram</b> (you can add it later from the dashboard). Click Next.
+            </span>
+          </Step>
+          <Step n={3}>
+            <span>
+              <b>Business portfolio.</b> Pick the Scholarstika business portfolio if you have one, or choose <b>I don&apos;t want to connect a business
+              portfolio yet</b>. Click Next through <b>Requirements</b> and <b>Overview</b>, then <b>Go to dashboard</b>. Leave the app in <b>Development</b> mode;
+              no App Review is needed to post to your own Page.
+            </span>
+          </Step>
+          <Step n={4}>
+            <span>
+              <b>Add the posting permissions.</b> In the dashboard, open <b>Use cases</b>. On <b>Manage everything on your Page</b> click <b>Customize</b> and
+              click <b>Add</b> next to <code>pages_manage_posts</code>, <code>pages_read_engagement</code> and <code>pages_manage_engagement</code>. For
+              Instagram, customize the Instagram use case, choose <b>API setup with Facebook login</b>, and add <code>instagram_basic</code> and{" "}
+              <code>instagram_content_publish</code>.
+            </span>
+          </Step>
+          <Step n={5}>
+            <span>
+              <b>Add the redirect link.</b> In the left menu open <b>Facebook Login for Business → Settings</b>. Paste this into{" "}
+              <b>Valid OAuth Redirect URIs</b> (click <b>Check URI</b> if shown), then <b>Save changes</b>:
             </span>
             <CopyBox label="Redirect URL" value={`${origin}/api/auth/meta/callback`} />
           </Step>
-          <Step n={3}>
-            <span>Go to <b>App settings → Basic</b>. Copy the <b>App ID</b> and <b>App secret</b> (click Show) into the boxes below and click Save keys.</span>
+          <Step n={6}>
+            <span>
+              <b>Create a login configuration.</b> Open <b>Facebook Login for Business → Configurations → Create configuration</b>. Name it
+              &quot;Scheduler&quot;, choose login variation <b>General</b>, access token <b>User access token</b>, expiration <b>Never</b> (or the longest offered).
+              For assets choose <b>Pages</b> and <b>Instagram accounts</b>. Tick these permissions: <code>pages_show_list</code>,{" "}
+              <code>pages_read_engagement</code>, <code>pages_manage_posts</code>, <code>pages_manage_engagement</code>, <code>business_management</code>,{" "}
+              <code>instagram_basic</code>, <code>instagram_content_publish</code>. Click Create and copy the <b>Configuration ID</b>.
+            </span>
+          </Step>
+          <Step n={7}>
+            <span>
+              <b>Copy the keys.</b> Go to <b>App settings → Basic</b>. Copy the <b>App ID</b> and the <b>App secret</b> (click Show, then enter your Facebook
+              password if asked). Paste them and the Configuration ID below, then click <b>Save keys</b>.
+            </span>
             <form
               style={{ display: "grid", gap: 10 }}
               onSubmit={(e) => {
@@ -199,6 +233,10 @@ export default function ConnectClient({ origin, initial }: { origin: string; ini
                 </label>
               </div>
               <label>
+                Configuration ID <span className="muted" style={{ fontWeight: 400 }}>(from step 6)</span>
+                <input id="meta-config-id" type="text" inputMode="numeric" autoComplete="off" value={meta.configId} onChange={(e) => setMeta({ ...meta, configId: e.target.value })} placeholder="e.g. 987654321098765" />
+              </label>
+              <label>
                 Facebook Page ID <span className="muted" style={{ fontWeight: 400 }}>(optional, only if you manage several Pages)</span>
                 <input id="meta-page-id" type="text" inputMode="numeric" autoComplete="off" value={meta.pageId} onChange={(e) => setMeta({ ...meta, pageId: e.target.value })} placeholder="Page → About → Page transparency → Page ID" />
               </label>
@@ -206,8 +244,11 @@ export default function ConnectClient({ origin, initial }: { origin: string; ini
             </form>
             {note("meta")}
           </Step>
-          <Step n={4}>
-            <span>Click Connect, approve, and <b>tick the Scholarstika Page and its Instagram account</b> when Facebook asks which ones to allow.</span>
+          <Step n={8}>
+            <span>
+              <b>Connect.</b> Click the button, log in if asked, and when Facebook asks which Pages and Instagram accounts to allow, <b>tick the Scholarstika
+              Page and its Instagram account</b>. You&apos;ll come back here with both showing Connected.
+            </span>
             {metaKeys ? (
               <a className="btn" style={{ justifySelf: "start" }} href="/api/auth/meta/start">{check?.facebook?.ok ? "Reconnect Facebook & Instagram" : "Connect Facebook & Instagram"}</a>
             ) : (

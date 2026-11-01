@@ -27,6 +27,9 @@ export async function POST(req: Request) {
     if (!String(v.appSecret || "").trim() && !before.meta.hasSecret) {
       return NextResponse.json({ error: "Paste the App Secret too (App settings → Basic → App secret → Show)." }, { status: 400 });
     }
+    if (String(v.configId || "").trim() && !/^\d{6,25}$/.test(String(v.configId).trim())) {
+      return NextResponse.json({ error: "The Configuration ID should be a long number. Copy it from Facebook Login for Business → Configurations." }, { status: 400 });
+    }
   } else if (body.platform === "linkedin") {
     if (!String(v.clientId || "").trim()) return NextResponse.json({ error: "Paste the Client ID from the Auth tab of your LinkedIn app." }, { status: 400 });
     if (!String(v.clientSecret || "").trim() && !before.linkedin.hasSecret) {

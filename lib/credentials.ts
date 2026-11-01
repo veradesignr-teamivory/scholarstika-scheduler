@@ -6,7 +6,7 @@
 import { redis } from "./db";
 import type { WordPressConnection } from "./types";
 
-export type MetaApp = { appId: string; appSecret: string; pageId?: string };
+export type MetaApp = { appId: string; appSecret: string; pageId?: string; configId?: string };
 export type LinkedInApp = { clientId: string; clientSecret: string; orgId?: string };
 export type WordPressConfig = { siteUrl: string; username: string; appPassword: string; status?: string; categoryId?: string };
 
@@ -23,7 +23,12 @@ export async function getMetaApp(): Promise<MetaApp | null> {
   const appId = process.env.META_APP_ID || s.appId;
   const appSecret = process.env.META_APP_SECRET || s.appSecret;
   if (!appId || !appSecret) return null;
-  return { appId, appSecret, pageId: process.env.FB_PAGE_ID || s.pageId || undefined };
+  return {
+    appId,
+    appSecret,
+    pageId: process.env.FB_PAGE_ID || s.pageId || undefined,
+    configId: process.env.META_CONFIG_ID || s.configId || undefined,
+  };
 }
 
 export async function getLinkedInApp(): Promise<LinkedInApp | null> {
@@ -59,6 +64,7 @@ export async function publicConfig() {
     meta: {
       appId: env.META_APP_ID || s.meta?.appId || "",
       pageId: env.FB_PAGE_ID || s.meta?.pageId || "",
+      configId: env.META_CONFIG_ID || s.meta?.configId || "",
       hasSecret: !!(env.META_APP_SECRET || s.meta?.appSecret),
       lockedByEnv: !!(env.META_APP_ID || env.META_APP_SECRET),
     },
@@ -91,6 +97,7 @@ export async function saveConfig(platform: "meta" | "linkedin" | "wordpress", in
       appId: clean(input.appId).replace(/\D/g, ""),
       appSecret: clean(input.appSecret) || prev.appSecret || "",
       pageId: clean(input.pageId).replace(/\D/g, ""),
+      configId: clean(input.configId).replace(/\D/g, ""),
     };
   } else if (platform === "linkedin") {
     const prev = s.linkedin || {};
