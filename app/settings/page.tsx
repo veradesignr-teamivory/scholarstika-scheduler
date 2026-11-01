@@ -5,12 +5,14 @@ import { formatWat } from "@/lib/time";
 import RunNow from "../components/RunNow";
 import SetupError from "../components/SetupError";
 import TopBar from "../components/TopBar";
+import AdminPanel from "./AdminPanel";
 import Connections from "./Connections";
+import { adminExists, cronSecret } from "@/lib/session";
 
 export const dynamic = "force-dynamic";
 
-export default async function Settings({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string }> }) {
-  const { ok, error } = await searchParams;
+export default async function Settings({ searchParams }: { searchParams: Promise<{ ok?: string; error?: string; welcome?: string }> }) {
+  const { ok, error, welcome } = await searchParams;
   const h = await headers();
   const origin = process.env.APP_URL || `https://${h.get("host")}`;
 
@@ -23,8 +25,8 @@ export default async function Settings({ searchParams }: { searchParams: Promise
   }
 
   const env = {
-    password: !!process.env.ADMIN_PASSWORD,
-    cron: !!process.env.CRON_SECRET,
+    password: await adminExists().catch(() => false),
+    cron: !!(await cronSecret().catch(() => null)),
     blob: !!process.env.BLOB_READ_WRITE_TOKEN,
     db: !dbError,
     meta: !!(process.env.META_APP_ID && process.env.META_APP_SECRET),
@@ -37,20 +39,26 @@ export default async function Settings({ searchParams }: { searchParams: Promise
     <main className="wrap">
       <TopBar current="settings" />
       <h1>Connections &amp; settings</h1>
+      {welcome && (
+        <div className="notice ok">
+          Admin account created and you're signed in. Next: add the two GitHub secrets shown under “Admin &amp; scheduler key” below, then connect your accounts.
+        </div>
+      )}
       {ok && <div className="notice ok">{ok}</div>}
       {error && <div className="notice bad">{error}</div>}
       {dbError && <SetupError message={dbError} />}
 
       <div className="grid2">
         <Connections metaReady={env.meta} linkedinReady={env.linkedin} />
+        <AdminPanel appUrl={origin} />
 
         <section className="card">
           <h2>Setup checklist</h2>
           <div className="results">
             <div>{check(env.db)} Database (Upstash Redis)</div>
             <div>{check(env.blob)} File storage (Vercel Blob)</div>
-            <div>{check(env.password)} <code>ADMIN_PASSWORD</code></div>
-            <div>{check(env.cron)} <code>CRON_SECRET</code> (lets the scheduler run every 15 minutes)</div>
+            <div>{check(env.password)} Admin account</div>
+            <div>{check(env.cron)} Scheduler key (add it to GitHub as <code>CRON_SECRET</code>)</div>
             <div>{check(env.meta)} Meta app (<code>META_APP_ID</code>, <code>META_APP_SECRET</code>)</div>
             <div>{check(env.linkedin)} LinkedIn app (<code>LINKEDIN_CLIENT_ID</code>, <code>LINKEDIN_CLIENT_SECRET</code>)</div>
             <div>{check(env.wordpress)} WordPress (<code>WP_URL</code>, <code>WP_USERNAME</code>, <code>WP_APP_PASSWORD</code>)</div>

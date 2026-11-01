@@ -33,16 +33,12 @@ Posts Scholarstika's content plan (56 posts, Oct – 31 Dec 2026) to the **Faceb
 1. Open **Storage → Create → Upstash (Redis)**. The free plan is enough. Connect it to the project.
 2. Open **Storage → Create → Blob** and connect it. This holds your images and videos.
 
-### 4. Add settings
-In **Settings → Environment Variables**, add:
+### 4. Create your admin account
+1. In **Settings → Environment Variables**, add `APP_URL` = your Vercel address from step 2, then go to **Deployments → ⋯ → Redeploy**.
+2. Open your address. The first visit shows **Create the admin account**: choose a password (at least 10 characters) and click **Create admin account**. Only one admin account can be created; after that the page closes and everyone goes to sign-in.
+3. You land on **Connections & settings**. Under **Admin & scheduler key** you'll find the `APP_URL` and `CRON_SECRET` values to copy into GitHub in step 8.
 
-| Name | Value |
-|---|---|
-| `ADMIN_PASSWORD` | The password you'll use to open the app |
-| `CRON_SECRET` | Any long random text (e.g. 40 random letters and numbers) |
-| `APP_URL` | Your Vercel address from step 2 |
-
-Then go to **Deployments → ⋯ → Redeploy**. Open your address and sign in. You'll see all 56 posts.
+You can change the password later on the same page. If you ever lose it, add `ADMIN_PASSWORD` in Vercel and redeploy; that password then works instead. (`CRON_SECRET` in Vercel likewise overrides the generated scheduler key.)
 
 ### 5. Connect Facebook and Instagram
 **First, check these on Facebook and Instagram:**
@@ -108,7 +104,7 @@ Your main website on Hostinger is not affected; only the `scheduler.` subdomain 
 ### 8. Turn on the 15-minute schedule (GitHub Actions)
 1. In your GitHub repository, go to **Settings → Secrets and variables → Actions → New repository secret**, and add two secrets:
    - `APP_URL`: your app's address, e.g. `https://scheduler.scholarstika.org`
-   - `CRON_SECRET`: exactly the same value you set in Vercel
+   - `CRON_SECRET`: the key shown under **Admin & scheduler key** on the app's settings page (use its Copy button)
 2. Open the **Actions** tab. If asked, click **I understand my workflows, go ahead and enable them**.
 3. Click **Publish due posts → Run workflow** once to test. A green tick means the scheduler answered.
 
@@ -151,4 +147,4 @@ If you'd rather not use GitHub Actions, any cron service can call
 - Next.js 15 (App Router) on Vercel. Data is stored in Upstash Redis and media in Vercel Blob (public URLs, which Instagram and Facebook fetch).
 - APIs used: Facebook Graph API (`/photos`, `/feed`, `/videos`), Instagram Content Publishing (media containers, then `media_publish`) and the LinkedIn versioned Posts, Images and Videos APIs.
 - `data/posts.json` is the original plan. It seeds the database on first run only, so later edits live in the database.
-- The cron route is `/api/cron`. It's protected by `CRON_SECRET` and takes a lock so two runs never overlap.
+- The cron route is `/api/cron`. It's protected by the scheduler key (generated at setup, or `CRON_SECRET`) and takes a lock so two runs never overlap.

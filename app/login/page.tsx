@@ -6,9 +6,9 @@ export default async function Login({ searchParams }: { searchParams: Promise<{ 
         <div className="eyebrow">Scholarstika Scheduler</div>
         <h1>Sign in</h1>
         {error === "wrong" && <div className="notice bad">That password is incorrect.</div>}
-        {error === "setup" && (
+        {error === "exists" && (
           <div className="notice bad">
-            No password is set yet. Add an <code>ADMIN_PASSWORD</code> environment variable in Vercel and redeploy.
+            An admin account already exists. Sign in with its password.
           </div>
         )}
         <form method="post" action="/api/login" style={{ display: "grid", gap: 12 }}>
