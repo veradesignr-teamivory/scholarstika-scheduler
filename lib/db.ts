@@ -1,7 +1,7 @@
 import { Redis } from "@upstash/redis";
 import seed from "../data/posts.json";
 import { watToIso } from "./time";
-import type { LinkedInConnection, MetaConnection, Post, WordPressConnection } from "./types";
+import type { LinkedInConnection, MetaConnection, Post } from "./types";
 
 let client: Redis | null = null;
 
@@ -106,20 +106,6 @@ export async function getLinkedInConnection(): Promise<LinkedInConnection | null
 export async function saveLinkedInConnection(c: LinkedInConnection | null) {
   if (c) await redis().set("conn:linkedin", c);
   else await redis().del("conn:linkedin");
-}
-
-/** WordPress uses an Application Password, set as environment variables in Vercel. */
-export function getWordPressConnection(): WordPressConnection | null {
-  const { WP_URL, WP_USERNAME, WP_APP_PASSWORD, WP_POST_STATUS, WP_CATEGORY_ID } = process.env;
-  if (!WP_URL || !WP_USERNAME || !WP_APP_PASSWORD) return null;
-  const status = WP_POST_STATUS === "draft" || WP_POST_STATUS === "pending" ? WP_POST_STATUS : "publish";
-  return {
-    siteUrl: WP_URL.replace(/\/+$/, ""),
-    username: WP_USERNAME,
-    appPassword: WP_APP_PASSWORD.replace(/\s+/g, ""),
-    status,
-    categoryId: WP_CATEGORY_ID ? Number(WP_CATEGORY_ID) : undefined,
-  };
 }
 
 export async function logRun(entry: Record<string, unknown>) {

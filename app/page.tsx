@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { getPosts } from "@/lib/db";
+import { getWordPressConnection } from "@/lib/credentials";
+import { getLinkedInConnection, getMetaConnection, getPosts } from "@/lib/db";
 import { formatWat, monthKey } from "@/lib/time";
 import { CHANNEL_LABEL, type Post, type PostStatus } from "@/lib/types";
 import RunNow from "./components/RunNow";
@@ -32,6 +33,16 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ s
     );
   }
 
+  const [metaConn, liConn, wpConn] = await Promise.all([
+    getMetaConnection().catch(() => null),
+    getLinkedInConnection().catch(() => null),
+    getWordPressConnection().catch(() => null),
+  ]);
+  const missing = [
+    !metaConn && "Facebook & Instagram",
+    !liConn && "LinkedIn",
+    !wpConn && "WordPress",
+  ].filter(Boolean) as string[];
   const now = Date.now();
   const counts = posts.reduce<Record<string, number>>((a, p) => ((a[p.status] = (a[p.status] || 0) + 1), a), {});
   const next = posts.find((p) => p.status === "ready" && new Date(p.scheduledAt).getTime() > now);
@@ -68,6 +79,12 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ s
           <div className="notice warn">
             {needsMediaSoon} post{needsMediaSoon > 1 ? "s" : ""} in the next 3 days {needsMediaSoon > 1 ? "are" : "is"} still a draft.
             Add the images, video or article and mark {needsMediaSoon > 1 ? "them" : "it"} Ready, or {needsMediaSoon > 1 ? "they" : "it"} won&apos;t go out.
+          </div>
+        )}
+        {missing.length > 0 && (
+          <div className="notice warn" style={{ display: "flex", flexWrap: "wrap", gap: 10, alignItems: "center", justifyContent: "space-between" }}>
+            <span>Not connected yet: <b>{missing.join(", ")}</b>. Posts for these channels can&apos;t go out until you connect them.</span>
+            <Link className="btn small" href="/connect" style={{ fontSize: 13, padding: "5px 10px" }}>Connect accounts</Link>
           </div>
         )}
         <RunNow />

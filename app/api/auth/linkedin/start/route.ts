@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { getLinkedInApp } from "@/lib/credentials";
 import { appUrl } from "@/lib/session";
 
 /**
@@ -6,10 +7,11 @@ import { appUrl } from "@/lib/session";
  * (needs LinkedIn's Community Management API product); otherwise to your personal profile.
  */
 export async function GET(req: NextRequest) {
-  const clientId = process.env.LINKEDIN_CLIENT_ID;
-  if (!clientId) return NextResponse.redirect(new URL("/settings?error=LINKEDIN_CLIENT_ID+is+not+set", req.url));
+  const app = await getLinkedInApp();
+  if (!app) return NextResponse.redirect(new URL("/connect?error=" + encodeURIComponent("Save your LinkedIn Client ID and Client Secret first."), req.url));
+  const clientId = app.clientId;
   const scopes = ["openid", "profile", "w_member_social"];
-  if (process.env.LINKEDIN_ORG_ID) scopes.push("w_organization_social", "r_organization_social");
+  if (app.orgId) scopes.push("w_organization_social", "r_organization_social");
   const state = crypto.randomUUID();
   const u = new URL("https://www.linkedin.com/oauth/v2/authorization");
   u.searchParams.set("response_type", "code");

@@ -22,7 +22,7 @@ export async function wpFetch(conn: WordPressConnection, route: string, init: Re
     try {
       res = await fetch(url, { ...init, headers });
     } catch {
-      throw new PublishError(`Could not reach ${conn.siteUrl}. Check WP_URL (include https://) and that the site is online.`);
+      throw new PublishError(`Could not reach ${conn.siteUrl}. Check the website address on Connect accounts (include https://) and that the site is online.`);
     }
     const isJson = (res.headers.get("content-type") || "").includes("json");
     if (res.status === 404 && !isJson) {
@@ -34,15 +34,15 @@ export async function wpFetch(conn: WordPressConnection, route: string, init: Re
       const msg = typeof body === "object" && body ? body.message || body.code : String(body).slice(0, 200);
       if (res.status === 401 || res.status === 403) {
         throw new PublishError(
-          `WordPress refused the login (${res.status}: ${msg}). Check WP_USERNAME and WP_APP_PASSWORD, and that a security plugin or the host firewall isn't blocking the REST API.`
+          `WordPress refused the login (${res.status}: ${msg}). Check the WordPress username and Application Password on Connect accounts, and that a security plugin or the host firewall isn't blocking the REST API.`
         );
       }
       throw new PublishError(`WordPress ${res.status}: ${msg}`);
     }
-    if (!isJson) throw new PublishError("WordPress returned a web page instead of API data. Check WP_URL.");
+    if (!isJson) throw new PublishError("WordPress returned a web page instead of API data. Check the website address on Connect accounts.");
     return body;
   }
-  throw new PublishError(`WordPress REST API not found at ${conn.siteUrl} (HTTP ${last?.status}). Check WP_URL.`);
+  throw new PublishError(`WordPress REST API not found at ${conn.siteUrl} (HTTP ${last?.status}). Check the website address on Connect accounts.`);
 }
 
 const slugFrom = (post: Post) =>

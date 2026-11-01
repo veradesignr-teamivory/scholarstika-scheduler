@@ -1,16 +1,19 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { saveLinkedInConnection } from "@/lib/db";
+import { getLinkedInApp } from "@/lib/credentials";
 import { appUrl } from "@/lib/session";
 
 export async function GET(req: NextRequest) {
   const back = (msg: string, ok = false) =>
-    NextResponse.redirect(new URL(`/settings?${ok ? "ok" : "error"}=${encodeURIComponent(msg)}`, req.url));
+    NextResponse.redirect(new URL(`/connect?${ok ? "ok" : "error"}=${encodeURIComponent(msg)}`, req.url));
   const q = req.nextUrl.searchParams;
   if (q.get("error")) return back(q.get("error_description") || "LinkedIn sign-in was cancelled.");
   if (!q.get("code") || q.get("state") !== req.cookies.get("li_state")?.value) {
     return back("The sign-in link expired. Try connecting again.");
   }
 
+  const app = await getLinkedInApp();
+  if (!app) return back("Save your LinkedIn Client ID and Client Secret first.");
   try {
     const tokenRes = await fetch("https://www.linkedin.com/oauth/v2/accessToken", {
       method: "POST",
@@ -19,8 +22,8 @@ export async function GET(req: NextRequest) {
         grant_type: "authorization_code",
         code: q.get("code")!,
         redirect_uri: `${appUrl(req.nextUrl.origin)}/api/auth/linkedin/callback`,
-        client_id: process.env.LINKEDIN_CLIENT_ID || "",
-        client_secret: process.env.LINKEDIN_CLIENT_SECRET || "",
+        client_id: app.clientId,
+        client_secret: app.clientSecret,
       }),
     });
     const t = await tokenRes.json();
@@ -32,7 +35,7 @@ export async function GET(req: NextRequest) {
     const me = await meRes.json();
     if (!meRes.ok) return back(me.message || "Could not read your LinkedIn profile.");
 
-    const org = process.env.LINKEDIN_ORG_ID;
+    const org = app.orgId;
     await saveLinkedInConnection({
       accessToken: t.access_token,
       expiresAt: new Date(Date.now() + t.expires_in * 1000).toISOString(),

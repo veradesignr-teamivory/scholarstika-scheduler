@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { saveMetaConnection } from "@/lib/db";
 import { GRAPH } from "@/lib/publish/common";
+import { getMetaApp } from "@/lib/credentials";
 import { appUrl } from "@/lib/session";
 
 type Page = {
@@ -20,7 +21,7 @@ async function getJson(url: URL) {
 /** Exchanges the code for a long-lived token, then stores the Page token (which does not expire) and the linked Instagram account. */
 export async function GET(req: NextRequest) {
   const back = (msg: string, ok = false) =>
-    NextResponse.redirect(new URL(`/settings?${ok ? "ok" : "error"}=${encodeURIComponent(msg)}`, req.url));
+    NextResponse.redirect(new URL(`/connect?${ok ? "ok" : "error"}=${encodeURIComponent(msg)}`, req.url));
   const q = req.nextUrl.searchParams;
   if (q.get("error")) return back(q.get("error_description") || "Facebook sign-in was cancelled.");
   if (!q.get("code") || q.get("state") !== req.cookies.get("meta_state")?.value) {
@@ -28,8 +29,10 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const id = process.env.META_APP_ID!;
-    const secret = process.env.META_APP_SECRET!;
+    const app = await getMetaApp();
+    if (!app) return back("Save your Meta App ID and App Secret first.");
+    const id = app.appId;
+    const secret = app.appSecret;
     const redirect = `${appUrl(req.nextUrl.origin)}/api/auth/meta/callback`;
 
     const short = new URL(`${GRAPH}/oauth/access_token`);
@@ -54,7 +57,7 @@ export async function GET(req: NextRequest) {
     const { data } = (await getJson(accounts)) as { data: Page[] };
     if (!data?.length) return back("No Facebook Pages found. Make sure you selected the Scholarstika Page when approving.");
 
-    const wanted = process.env.FB_PAGE_ID;
+    const wanted = app.pageId;
     const page = (wanted && data.find((p) => p.id === wanted)) || data.find((p) => /scholarstika/i.test(p.name)) || data[0];
 
     await saveMetaConnection({

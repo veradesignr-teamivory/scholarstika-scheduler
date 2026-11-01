@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { getMetaConnection, getWordPressConnection, saveLinkedInConnection, saveMetaConnection } from "@/lib/db";
+import { getWordPressConnection } from "@/lib/credentials";
+import { getMetaConnection, saveLinkedInConnection, saveMetaConnection } from "@/lib/db";
 import { graphGet } from "@/lib/publish/common";
 import { wpFetch } from "@/lib/publish/wordpress";
 import { liveLinkedIn } from "@/lib/linkedin-auth";
@@ -41,8 +42,8 @@ export async function GET() {
       ? { ok: true, detail: `${li.name}${days !== null ? ` · token valid for ${days} more days` : ""}` }
       : { ok: false, detail: `Token rejected (${res.status}). Reconnect LinkedIn.` };
   }
-  const wp = getWordPressConnection();
-  if (!wp) out.wordpress = { ok: false, detail: "Not connected. Add WP_URL, WP_USERNAME and WP_APP_PASSWORD in Vercel." };
+  const wp = await getWordPressConnection();
+  if (!wp) out.wordpress = { ok: false, detail: "Not connected yet." };
   else {
     try {
       const me = await wpFetch(wp, "users/me?context=edit");

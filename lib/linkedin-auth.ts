@@ -1,3 +1,4 @@
+import { getLinkedInApp } from "./credentials";
 import { getLinkedInConnection, saveLinkedInConnection } from "./db";
 import type { LinkedInConnection } from "./types";
 
@@ -8,14 +9,16 @@ export async function liveLinkedIn(): Promise<LinkedInConnection | null> {
   const left = new Date(conn.expiresAt).getTime() - Date.now();
   if (left > 7 * 864e5 || !conn.refreshToken) return conn;
 
+  const app = await getLinkedInApp();
+  if (!app) return conn;
   const res = await fetch("https://www.linkedin.com/oauth/v2/accessToken", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams({
       grant_type: "refresh_token",
       refresh_token: conn.refreshToken,
-      client_id: process.env.LINKEDIN_CLIENT_ID || "",
-      client_secret: process.env.LINKEDIN_CLIENT_SECRET || "",
+      client_id: app.clientId,
+      client_secret: app.clientSecret,
     }),
   });
   if (!res.ok) return conn;

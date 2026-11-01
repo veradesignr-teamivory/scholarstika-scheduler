@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { GRAPH_VERSION } from "@/lib/publish/common";
+import { getMetaApp } from "@/lib/credentials";
 import { appUrl } from "@/lib/session";
 
 const META_SCOPES = [
@@ -15,8 +16,9 @@ const META_SCOPES = [
 
 /** Sends you to Facebook to approve posting to your Page and its linked Instagram account. */
 export async function GET(req: NextRequest) {
-  const appId = process.env.META_APP_ID;
-  if (!appId) return NextResponse.redirect(new URL("/settings?error=META_APP_ID+is+not+set", req.url));
+  const app = await getMetaApp();
+  if (!app) return NextResponse.redirect(new URL("/connect?error=" + encodeURIComponent("Save your Meta App ID and App Secret first."), req.url));
+  const appId = app.appId;
   const state = crypto.randomUUID();
   const u = new URL(`https://www.facebook.com/${GRAPH_VERSION}/dialog/oauth`);
   u.searchParams.set("client_id", appId);

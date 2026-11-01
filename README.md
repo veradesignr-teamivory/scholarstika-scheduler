@@ -36,7 +36,7 @@ Posts Scholarstika's content plan (56 posts, Oct – 31 Dec 2026) to the **Faceb
 ### 4. Create your admin account
 1. In **Settings → Environment Variables**, add `APP_URL` = your Vercel address from step 2, then go to **Deployments → ⋯ → Redeploy**.
 2. Open your address. The first visit shows **Create the admin account**: choose a password (at least 10 characters) and click **Create admin account**. Only one admin account can be created; after that the page closes and everyone goes to sign-in.
-3. You land on **Connections & settings**. Under **Admin & scheduler key** you'll find the `APP_URL` and `CRON_SECRET` values to copy into GitHub in step 8.
+3. You land on **Settings**. Under **Admin & scheduler key** you'll find the `APP_URL` and `CRON_SECRET` values to copy into GitHub in step 8.
 
 You can change the password later on the same page. If you ever lose it, add `ADMIN_PASSWORD` in Vercel and redeploy; that password then works instead. (`CRON_SECRET` in Vercel likewise overrides the generated scheduler key.)
 
@@ -51,8 +51,8 @@ You can change the password later on the same page. If you ever lose it, add `AD
 3. Add the products **Facebook Login for Business** and **Instagram** (Instagram API with Facebook Login).
 4. Under **Facebook Login → Settings → Valid OAuth Redirect URIs**, add:
    `https://YOUR-APP.vercel.app/api/auth/meta/callback`
-5. From **App settings → Basic**, copy the **App ID** and **App Secret** into Vercel as `META_APP_ID` and `META_APP_SECRET`, then redeploy.
-6. In the app, open **Connections & settings → Connect Facebook & Instagram**. Approve with the account that manages the Scholarstika Page, and **select the Page and the Instagram account** when asked.
+5. From **App settings → Basic**, copy the **App ID** and **App Secret**. In the scheduler, open **Connect accounts**, paste them into the Facebook & Instagram card and click **Save keys**.
+6. Click **Connect Facebook & Instagram**. Approve with the account that manages the Scholarstika Page, and **select the Page and the Instagram account** when asked.
 
 The app can stay in **Development mode** because only you (an app admin) use it, so Meta's App Review isn't needed. The Page connection doesn't expire.
 
@@ -61,12 +61,12 @@ The app can stay in **Development mode** because only you (an app admin) use it,
 2. Under **Products**, request **Share on LinkedIn** and **Sign In with LinkedIn using OpenID Connect**. Both are approved instantly.
 3. Under **Auth → Authorized redirect URLs**, add:
    `https://YOUR-APP.vercel.app/api/auth/linkedin/callback`
-4. Copy the **Client ID** and **Client Secret** into Vercel as `LINKEDIN_CLIENT_ID` and `LINKEDIN_CLIENT_SECRET`, then redeploy.
+4. Copy the **Client ID** and **Primary Client Secret** into the LinkedIn card on **Connect accounts** and click **Save keys**.
 5. In the app, click **Connect LinkedIn**.
 
 **Personal profile or company page?** By default, posts go to **your personal LinkedIn profile**. To post as the **Scholarstika company page** instead:
 - Request the **Community Management API** product on your LinkedIn app. LinkedIn reviews this, which can take several days to weeks.
-- Once approved, add `LINKEDIN_ORG_ID`: the number in your page's admin URL, `linkedin.com/company/12345678/admin`. Redeploy and click **Reconnect LinkedIn**.
+- Once approved, enter the **Company page ID** on the LinkedIn card (the number in your page's admin URL, `linkedin.com/company/12345678/admin`), click **Save keys**, then **Reconnect LinkedIn**.
 
 A LinkedIn connection lasts **60 days**. The settings page shows how many days are left; click **Reconnect LinkedIn** before it runs out. Apps approved for refresh tokens renew automatically.
 
@@ -74,13 +74,7 @@ A LinkedIn connection lasts **60 days**. The settings page shows how many days a
 This works with WordPress on Hostinger or any other host (WordPress 5.6 or newer, site on HTTPS).
 1. In WordPress admin, go to **Users → Profile**. Use an Administrator, Editor or Author account.
 2. Scroll to **Application Passwords**, type `Scholarstika Scheduler` as the name, and click **Add New Application Password**. Copy the code it shows; it's only shown once.
-3. In Vercel, add:
-   - `WP_URL`: `https://scholarstika.org` (your site address)
-   - `WP_USERNAME`: the WordPress username of that account (not the email)
-   - `WP_APP_PASSWORD`: the code from step 2
-   - Optional: `WP_POST_STATUS` = `draft` if you'd rather review each article in WordPress before it goes live
-   - Optional: `WP_CATEGORY_ID` to file every post under one category
-4. Redeploy. **Connections & settings** should show WordPress in green.
+3. In the scheduler, open **Connect accounts** and fill in the WordPress card: your site address, the WordPress username (not the email) and the code from step 2. Choose whether new posts are published straight away or saved as drafts for review, then click **Save & test WordPress**. The card turns green when it works.
 
 **Writing the blog posts:** each Friday blog post has an **Article** box. Paste or write the article there (`##` for headings, `-` for bullets), optionally attach a featured image, then click **Save & mark ready**. The app needs at least 150 words before it accepts the post. The title, excerpt (meta description) and URL slug come from the plan.
 
@@ -111,7 +105,7 @@ Your main website on Hostinger is not affected; only the `scheduler.` subdomain 
 From then on, GitHub calls the app every 15 minutes. At busy times GitHub can start a few minutes late. GitHub also pauses scheduled workflows in a repository with no activity for 60 days, and emails you first; any commit, or clicking **Enable workflow**, restarts it.
 
 ### 9. Test it
-1. On **Connections & settings**, all three accounts should show green.
+1. On **Connect accounts**, every card should show **Connected**.
 2. Open any upcoming post, attach media, then click **Post now instead** and confirm. Check that it appears on each account. To test without posting to followers, use a post you'd send anyway.
 
 ---

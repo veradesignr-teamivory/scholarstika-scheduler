@@ -1,4 +1,5 @@
-import { getMetaConnection, getPosts, getWordPressConnection, logRun, redis, savePost } from "./db";
+import { getWordPressConnection } from "./credentials";
+import { getMetaConnection, getPosts, logRun, redis, savePost } from "./db";
 import { publishWordPress } from "./publish/wordpress";
 import { liveLinkedIn } from "./linkedin-auth";
 import { PublishError, type PublishOutcome } from "./publish/common";
@@ -33,17 +34,17 @@ export async function publishPost(post: Post): Promise<Summary> {
     try {
       let out: PublishOutcome;
       if (ch === "facebook") {
-        if (!meta) throw new PublishError("Facebook is not connected. Open Settings and connect it.");
+        if (!meta) throw new PublishError("Facebook is not connected. Open Connect accounts and connect it.");
         out = await publishFacebook(post, meta);
       } else if (ch === "instagram") {
-        if (!meta) throw new PublishError("Instagram is not connected. Open Settings and connect Facebook & Instagram.");
+        if (!meta) throw new PublishError("Instagram is not connected. Open Connect accounts and connect Facebook & Instagram.");
         out = await publishInstagram(post, meta, prev);
       } else if (ch === "linkedin") {
-        if (!li) throw new PublishError("LinkedIn is not connected. Open Settings and connect it.");
+        if (!li) throw new PublishError("LinkedIn is not connected. Open Connect accounts and connect it.");
         out = await publishLinkedIn(post, li, prev);
       } else {
-        const wp = getWordPressConnection();
-        if (!wp) throw new PublishError("WordPress is not connected. Add WP_URL, WP_USERNAME and WP_APP_PASSWORD in Vercel.");
+        const wp = await getWordPressConnection();
+        if (!wp) throw new PublishError("WordPress is not connected. Open Connect accounts and add your WordPress details.");
         out = await publishWordPress(post, wp);
       }
       if (out.status === "posted") {
